@@ -1,6 +1,6 @@
 # *SET-U open data & archive edition
 
-**Live:** https://theguysaccount.github.io/set-u-language-genealogy/ · **The live atlas:** https://www.set-u.org/
+**Live:** https://data.set-u.org/ · **The live atlas:** https://www.set-u.org/
 
 *SET-U is an evidence-backed genealogy of human language: every reviewed word traced through attested and reconstructed
 ancestors, with the sound change, meaning change, scholar, confidence and citations for each step, back to the point

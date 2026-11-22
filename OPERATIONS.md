@@ -1,7 +1,8 @@
 # Operations
 
-Live at https://theguysaccount.github.io/set-u-language-genealogy/, a companion to the live atlas at
-https://www.set-u.org/ (which this repo never touches). Everything below runs on GitHub Actions in this repo.
+Live at https://data.set-u.org/, a companion to the live atlas at https://www.set-u.org/ (which this repo never
+touches). The first address, https://theguysaccount.github.io/set-u-language-genealogy/, redirects there. Everything
+below runs on GitHub Actions in this repo.
 
 ## Automated jobs
 
@@ -52,7 +53,7 @@ Monthly, in a checkout of this repo and of the SET-U project:
 
 | Key | Why | Exact steps |
 |---|---|---|
-| **Custom domain** | Put the open data on SET-U's own domain beside the live atlas | 1) DNS for set-u.org (Namecheap → Advanced DNS): `CNAME data → theguysaccount.github.io.` 2) `~/.local/bin/gh api -X PUT repos/theguysaccount/set-u-language-genealogy/pages -f cname=data.set-u.org` 3) `~/.local/bin/gh variable set SITE_URL -R theguysaccount/set-u-language-genealogy -b https://data.set-u.org` 4) `~/.local/bin/gh workflow run deploy.yml -R theguysaccount/set-u-language-genealogy` 5) once the certificate is issued: `~/.local/bin/gh api -X PUT repos/theguysaccount/set-u-language-genealogy/pages -F https_enforced=true`. The www.set-u.org records are untouched. |
+| **Custom domain** (turned 2026-11-22) | The open data on SET-U's own domain beside the live atlas | In place since the domain rollout on 2026-11-22: Namecheap → set-u.org → Advanced DNS has `CNAME data → theguysaccount.github.io.`, the Pages custom domain is `data.set-u.org` with HTTPS enforced, and the repo variable `SITE_URL` is `https://data.set-u.org`, the one setting every page, sitemap and check reads. The www.set-u.org and apex records are untouched. **To move to another host:** add its CNAME, then `~/.local/bin/gh api -X PUT repos/theguysaccount/set-u-language-genealogy/pages -f cname=<host>`, `~/.local/bin/gh variable set SITE_URL -R theguysaccount/set-u-language-genealogy -b https://<host>`, `~/.local/bin/gh workflow run deploy.yml -R theguysaccount/set-u-language-genealogy`, and once the certificate is issued `~/.local/bin/gh api -X PUT repos/theguysaccount/set-u-language-genealogy/pages -F https_enforced=true`; then delete the old CNAME. **To go back to github.io:** `~/.local/bin/gh api -X PUT repos/theguysaccount/set-u-language-genealogy/pages --input - <<< '{"cname":null}'`, `~/.local/bin/gh variable delete SITE_URL -R theguysaccount/set-u-language-genealogy`, `~/.local/bin/gh workflow run deploy.yml -R theguysaccount/set-u-language-genealogy`, then delete `CNAME data` at Namecheap straight away: a CNAME left pointing at GitHub Pages with no site claiming it can be taken over. |
 | **Declare reuse terms** | The data is readable but not yet reusable | Decide a licence for the editorial data (CC BY-SA 4.0 suits attribution and share-alike). Then update the `licenseNote` text in `lib/export-datasets.ts` and `static/build.mjs`, the Reuse section in `static/render.mjs` and LICENSE, and push. The live atlas's own export should say the same. |
 | **Money: support or data licensing** | First revenue without breaking GitHub Pages' non-commercial terms | `gh variable set SUPPORT_URL -b <url>` (and optionally `SUPPORT_LABEL`), run `deploy.yml`: a footer link appears. Paid API or bulk licensing needs hosting off Pages. |
 | **Analytics** | Count dataset downloads | Create a GoatCounter site, `gh variable set GOATCOUNTER_URL -b https://<code>.goatcounter.com/count`, run `deploy.yml`. |
