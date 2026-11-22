@@ -11,3 +11,6 @@
   the share image. Not reused: server routes, auth, intake/review desks, the 20 interactive atlases (they stay on set-u.org).
 - **Added:** bulk datasets + SQLite download, weekly citation link check, weekly drift check against the live atlas,
   static archive dossiers that defer to the live pages.
+- **Machines:** the first schedule-triggered runs, on 22 November 2026, passed: `selftest.yml` (run 45047290399) and `weekly.yml`
+  (run 45052536071). The temporary proof schedules that forced them were then removed; the regular schedules in
+  `OPERATIONS.md` remain.

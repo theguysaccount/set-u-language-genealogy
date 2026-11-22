@@ -5,7 +5,6 @@ name: Weekly checks
 on:
   schedule:
     - cron: "19 6 * * 2"    # Tuesdays 06:19 UTC
-    - cron: "37 */2 22,23 11 *"   # TEMPORARY: proves the schedule trigger on 22-23 Nov 2026; remove after it fires
   workflow_dispatch:
 
 permissions:
