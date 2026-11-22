@@ -1,0 +1,6036 @@
+{
+ "checked": "2026-11-22",
+ "summary": {
+  "total": 600,
+  "ok": 362,
+  "blocked": 215,
+  "unreachable": 14,
+  "broken": 9
+ },
+ "results": [
+  {
+   "url": "https://academic.oup.com/bioscience/article/71/9/899/6359320",
+   "keys": [
+    "oxford-quarantine-history"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://academic.oup.com/book/27616",
+   "keys": [
+    "znamenski-2007-shaman"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://academic.oup.com/book/48521",
+   "keys": [
+    "mallory-adams-2006"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/549654502",
+   "keys": [
+    "ocd-masks"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?id=F5075100",
+   "keys": [
+    "ahd-female"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?id=P5224400",
+   "keys": [
+    "ahd-person"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?id=W5158300",
+   "keys": [
+    "ahd-wife"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?q=+HATE",
+   "keys": [
+    "ahd-hate"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?q=hatred",
+   "keys": [
+    "ahd-hatred"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?q=humiliated",
+   "keys": [
+    "ahd-humiliate"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?q=kindredness",
+   "keys": [
+    "ahd-kindred"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?q=loaf",
+   "keys": [
+    "ahd-loaf"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?q=male",
+   "keys": [
+    "ahd-male"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?q=teepees",
+   "keys": [
+    "ahd-tepee"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ahdictionary.com/word/search.html?q=Woman",
+   "keys": [
+    "ahd-woman"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://an.univie.ac.at/vba2/vba2020.pdf",
+   "keys": [
+    "orel-germanic-etymology-hate"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://anw.ivdnt.org/article/lief",
+   "keys": [
+    "anw-lief"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://anw.ivdnt.org/article/vijand",
+   "keys": [
+    "anw-vijand"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://anw.ivdnt.org/article/vriend",
+   "keys": [
+    "anw-vriend"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://appsweb-cepam.unice.fr/etygram/node/1999",
+   "keys": [
+    "etygram-etos"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "UND_ERR_CONNECT_TIMEOUT",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n43304/",
+   "keys": [
+    "scaife-lsj-etymos"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n57070/",
+   "keys": [
+    "perseus-atlas-lsj-kedos"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n57073/",
+   "keys": [
+    "perseus-atlas-lsj-kedo"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:lat.ls.perseus-eng2-n21026/",
+   "keys": [
+    "ls-hostis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n43264/",
+   "keys": [
+    "scaife-lsj-etetymia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n43265/",
+   "keys": [
+    "scaife-lsj-etetymos"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n90433/",
+   "keys": [
+    "perseus-lsj-prosopon"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n21059/",
+   "keys": [
+    "scaife-ls-humilitas"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n41625/",
+   "keys": [
+    "scaife-ls-rex"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://atlas.perseus.tufts.edu/nodes/urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:3.122/",
+   "keys": [
+    "scaife-cunliffe-eteos"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://awb.saw-leipzig.de/?sigle=AWB&lemid=F00932",
+   "keys": [
+    "awb-fiant"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://awb.saw-leipzig.de/?sigle=AWB&lemid=F00968",
+   "keys": [
+    "awb-fien"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://awb.saw-leipzig.de/AWB?lemid=H00982",
+   "keys": [
+    "awb-haz-hetias-saxon-confession"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://blog.oup.com/2018/08/etymology-shortest-history-hatred-continued-concluded/",
+   "keys": [
+    "liberman-2018-hatred-2"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://blog.oup.com/2018/08/etymology-shortest-history-hatred-part-1/",
+   "keys": [
+    "liberman-2018-hatred-1"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://books.google.com/books/about/Etymological_Dictionary_of_Armenian.html?id=340lAQAAMAAJ",
+   "keys": [
+    "martirosyan-2010"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/010365",
+   "keys": [
+    "bosworth-toller-feond"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/10320",
+   "keys": [
+    "bosworth-toller-feogan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/10363",
+   "keys": [
+    "bosworth-toller-feon-hate"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/12314",
+   "keys": [
+    "bosworth-toller-freon"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/12316",
+   "keys": [
+    "bosworth-toller-freond"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/13997",
+   "keys": [
+    "bt-gecynd"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/18957",
+   "keys": [
+    "bosworth-toller-hete"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/42433",
+   "keys": [
+    "bt-cyning"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/47571",
+   "keys": [
+    "bt-gecynde"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/52655",
+   "keys": [
+    "bosworth-toller-hlaf"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/5275",
+   "keys": [
+    "bosworth-toller-bryd"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/54831",
+   "keys": [
+    "bt-lufu"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/6361",
+   "keys": [
+    "bt-cliewen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://bosworthtoller.com/7096",
+   "keys": [
+    "bt-cynn"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://brill.com/display/serial/LEIE",
+   "keys": [
+    "leiden-ieed"
+   ],
+   "status": "blocked",
+   "http": 405,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://brill.com/display/title/12611?language=en",
+   "keys": [
+    "kroonen-2013-fijen-fijand"
+   ],
+   "status": "blocked",
+   "http": 405,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://brill.com/display/title/17785",
+   "keys": [
+    "kroonen-2013"
+   ],
+   "status": "blocked",
+   "http": 405,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://calfa.fr/entries/%D5%8D%D5%BF%D5%B8%D5%B5%D5%A3%2C%D5%B8%D6%82%D5%A3%D5%A1%D6%81",
+   "keys": [
+    "calfa-stoyg"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://cdstar.eva.mpg.de/bitstreams/EAEA0-4C22-790A-0FFC-0/csd_dataset.pdf",
+   "keys": [
+    "comparative-siouan-dwelling"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://chaucer.fas.harvard.edu/index-spelling",
+   "keys": [
+    "harvard-chaucer-humiliacioun"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://classics.andrewgadsden.com/lewisandshort/entry/n50523",
+   "keys": [
+    "lewis-short-verbum"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://cld.bbaw.de/lemma/lat/candidatus",
+   "keys": [
+    "cld-candidatus"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://cleasby-vigfusson-dictionary.vercel.app/word/fja",
+   "keys": [
+    "cleasby-vigfusson-fja"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://cleasby-vigfusson-dictionary.vercel.app/word/hata",
+   "keys": [
+    "cleasby-vigfusson-hata"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://cleasby-vigfusson-dictionary.vercel.app/word/hatr",
+   "keys": [
+    "cleasby-vigfusson-hatr"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://cleasby-vigfusson-dictionary.vercel.app/word/lag",
+   "keys": [
+    "cleasby-vigfusson-lag"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://congresosdelalengua.es/cadiz/paneles-ponencias/universalidadespanol/iwasaki-fernando.htm",
+   "keys": [
+    "iwasaki-poncho-spanish"
+   ],
+   "status": "broken",
+   "http": 404,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://corpusoudfries.ivdnt.org/blacklab-frontend/OFR/about",
+   "keys": [
+    "corpus-oudfries-about"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://corpusoudfries.ivdnt.org/blacklab-frontend/OFR/docs/B2-PnB?query=%5Bword_or_lemma%3D%22hatia%22%5D",
+   "keys": [
+    "corpus-oudfries-b2-pnb-hatia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://corpusoudfries.ivdnt.org/blacklab-frontend/OFR/docs/J-RgJ?query=%5Bword_or_lemma%3D%22hatia%22%5D",
+   "keys": [
+    "corpus-oudfries-j-rgj-hatia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://corpusoudfries.ivdnt.org/blacklab-frontend/OFR/docs/J-Rud?query=%5Bword_or_lemma%3D%22hatia%22%5D",
+   "keys": [
+    "corpus-oudfries-j-rud-hatia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://corpusoudfries.ivdnt.org/blacklab-frontend/OFR/docs/Ro-JF?query=%5Bword_or_lemma%3D%22hatia%22%5D",
+   "keys": [
+    "corpus-oudfries-ro-jf-hatia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dagenta.ivdnt.org/wp-content/uploads/pdf/1912_franck_etymologisch-woordenboek.pdf",
+   "keys": [
+    "franck-lief"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dergipark.org.tr/en/pub/oguztad/article/1178168",
+   "keys": [
+    "ozbek-2022-yogurt"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dialnet.unirioja.es/descarga/tesis/246390.pdf",
+   "keys": [
+    "tio-saenz-old-english-weak-verbs"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dictionary.choctaw.org/en/word?word=Bo%CC%81k",
+   "keys": [
+    "mbci-choctaw-bok"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dil.ie/7955",
+   "keys": [
+    "edil-cais-love-hate"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "ECONNRESET",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://dil.ie/7956",
+   "keys": [
+    "edil-cais-eye"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "ECONNRESET",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://dil.ie/about",
+   "keys": [
+    "edil-about-method"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "ECONNRESET",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://dle.rae.es/aguacate",
+   "keys": [
+    "rae-aguacate"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dle.rae.es/alpaca",
+   "keys": [
+    "rae-alpaca"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dle.rae.es/hamaca",
+   "keys": [
+    "rae-hamaca"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dle.rae.es/llama",
+   "keys": [
+    "rae-llama"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dle.rae.es/poncho",
+   "keys": [
+    "rae-poncho"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://drw.hadw-bw.de/drw-cgi/zeige?index=lemmata&term=hetzen",
+   "keys": [
+    "drw-hetzen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dsae.co.za/entry/ubuntu/e07415",
+   "keys": [
+    "dsae-ubuntu"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dspace.cuni.cz/handle/20.500.11956/92943?locale-attribute=en",
+   "keys": [
+    "galis-2017-mycenae"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://dspace.uib.es/xmlui/handle/11201/166976",
+   "keys": [
+    "loureiro-porto-kind-of"
+   ],
+   "status": "broken",
+   "http": 404,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://ebeowulf.uky.edu/",
+   "keys": [
+    "electronic-beowulf-5"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ebeowulf.uky.edu/eBeowulf/CD/o/x0/152r.htm#l1018",
+   "keys": [
+    "electronic-beowulf-152r"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ebeowulf.uky.edu/eBeowulf/CD/o/x0/180v.htm#l2289",
+   "keys": [
+    "electronic-beowulf-180v"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://edizionicafoscari.unive.it/en/edizioni4/libri/979-12-5742-031-4/",
+   "keys": [
+    "archivum-gothicum-2026"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://en.wikisource.org/wiki/Beowulf_(Harrison_and_Sharp)/Glossary",
+   "keys": [
+    "harrison-sharp-beowulf-glossary"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://en.wikisource.org/wiki/Bright%27s_Anglo-Saxon_Reader/The_Ph%C5%93nix",
+   "keys": [
+    "bright-anglo-saxon-reader-phoenix"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://en.wikisource.org/wiki/Page:An_Etymological_Dictionary_of_the_German_Language.djvu/168",
+   "keys": [
+    "kluge-1891-hetzen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://englishilm.com/wp-content/uploads/2023/02/The-English-Language-A-Historical-Introduction.pdf",
+   "keys": [
+    "barber-beal-shaw-english-language"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://essentiels.bnf.fr/fr/image/77285f7f-de94-4bb0-94f4-0d3b95405373-invention-mot-robot",
+   "keys": [
+    "bnf-rur-english-1923"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://etymologiebank.nl/trefwoord/vijand",
+   "keys": [
+    "ewn-vijand"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ewa.saw-leipzig.de/articles/3500/de",
+   "keys": [
+    "ewa-altwib"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "CERT_HAS_EXPIRED",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://ewa.saw-leipzig.de/articles/71810/de",
+   "keys": [
+    "ewa-hiwa1"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "CERT_HAS_EXPIRED",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://ewa.saw-leipzig.de/articles/81970/en",
+   "keys": [
+    "ewa-kind"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "CERT_HAS_EXPIRED",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://ewa.saw-leipzig.de/articles/87240/de",
+   "keys": [
+    "ewa-kuning"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "CERT_HAS_EXPIRED",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://ewa.saw-leipzig.de/articles/87340/de",
+   "keys": [
+    "ewa-kunni"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "CERT_HAS_EXPIRED",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://ewa.saw-leipzig.de/articles/92970/de",
+   "keys": [
+    "ewa-liuben"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "CERT_HAS_EXPIRED",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://formacionenservicio.minedu.gob.pe/sifods/centro-recurso/2022/Material-educativo/Libro/vocabulario-pedagogico-aimara.pdf",
+   "keys": [
+    "peru-minedu-aymara-allphaqa"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://fwb.sub.uni-goettingen.de/lemma/hetzen.s.3v",
+   "keys": [
+    "fwb-hetzen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1280391q",
+   "keys": [
+    "daf-1694-t2-gallica"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k12803924",
+   "keys": [
+    "daf-1694-t1-gallica"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gdn.iib.unam.mx/diccionario/ahuacatl/181685",
+   "keys": [
+    "unam-gdn-ahuacatl"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gtb.ivdnt.org/iWDB/search?actie=article_content&id=ID42742&wdb=VMNW",
+   "keys": [
+    "vmnw-smeken-lief"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gtb.ivdnt.org/iWDB/search?actie=article_content&wdb=ONW&id=ID3660",
+   "keys": [
+    "onw-fiunt"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gtb.ivdnt.org/iWDB/search?actie=article_content&wdb=VMNW&id=ID74012",
+   "keys": [
+    "vmnw-viant"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gtb.ivdnt.org/iWDB/search?actie=article_content&wdb=WNT&id=M080125",
+   "keys": [
+    "wnt-vijand"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gtb.ivdnt.org/iWDB/search?wdb=MNW&actie=article&uitvoer=HTML&id=69150",
+   "keys": [
+    "mnw-vrient"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://gtb.ivdnt.org/iWDB/search?wdb=WNT&actie=article&uitvoer=HTML&id=M082777",
+   "keys": [
+    "wnt-vriend"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://hasp.ub.uni-heidelberg.de/catalog/view/1238/2175/105061",
+   "keys": [
+    "wiese-sanskrit-ie"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://hdl.handle.net/11577/2487804",
+   "keys": [
+    "meli-kuningaz"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://history.cass.anu.edu.au/centres/andc/meanings-origins/all",
+   "keys": [
+    "andc-boomerang"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://idus.us.es/bitstreams/a0de61e5-85d2-4867-96f6-2ca8a30402c3/download",
+   "keys": [
+    "kaczynska-2013-lex"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://iecor.clld.org/cognatesets/1529",
+   "keys": [
+    "iecor-1529"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ieed.ullet.net/popkema.html",
+   "keys": [
+    "hofmann-popkema-hatia"
+   ],
+   "status": "broken",
+   "http": 503,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://iiif.biblissima.fr/collections/manifest/ccd3c0ac642d4bc7d3ddabcf61cc1e6e9a87fe11",
+   "keys": [
+    "biblissima-cotton-caligula-a-vii-heliand"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://iris.uniroma3.it/handle/11590/269778",
+   "keys": [
+    "dinapoli-persona"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://journal.fi/sananjalka/article/download/86743/45491",
+   "keys": [
+    "ylikoski-kiuas"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://kotus.fi/sana/sauna/",
+   "keys": [
+    "kotus-sauna"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=28818",
+   "keys": [
+    "nikl-kimchi"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://languagemuseum.ca/wp-content/uploads/2022/12/indigenous_languages_in_canada_0.pdf",
+   "keys": [
+    "language-museum-indigenous-loans"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lexicography.online/etymology/vasmer/%D1%87/%D1%87%D0%B0%D0%B9",
+   "keys": [
+    "vasmer-russian-chay"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lexiconpoeticum.org/gefin/q.php?p=lp/words/word/20430",
+   "keys": [
+    "lexicon-poeticum-fja"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lexiconpoeticum.org/gefin/q.php?p=lp/words/word/20608",
+   "keys": [
+    "lexicon-poeticum-fjandi"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lexiconpoeticum.org/gefin/q.php?p=lp/words/word/32430",
+   "keys": [
+    "lexicon-poeticum-hata"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://link.springer.com/chapter/10.1007/978-94-011-9022-0_2",
+   "keys": [
+    "buma-brokmer-hatia-atia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/%CE%BB%CE%AD%CE%B3%CF%89",
+   "keys": [
+    "logeion-lego"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8C%CF%82",
+   "keys": [
+    "logeion-logikos"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/%CE%BB%CF%8C%CE%B3%CE%BF%CF%82",
+   "keys": [
+    "logeion-logos"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/%E1%BC%90%CF%84%CF%85%CE%BC%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1",
+   "keys": [
+    "logeion-greek-etymologia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/astrum",
+   "keys": [
+    "logeion-astrum"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/candeo",
+   "keys": [
+    "logeion-candeo"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/candidus",
+   "keys": [
+    "logeion-candidus"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/colligo",
+   "keys": [
+    "logeion-colligo"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/etymologia",
+   "keys": [
+    "logeion-etymologia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/fero",
+   "keys": [
+    "logeion-fero"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/humilis",
+   "keys": [
+    "logeion-humilis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/intellego",
+   "keys": [
+    "logeion-intellego"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/legalis",
+   "keys": [
+    "logeion-legalis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/lego",
+   "keys": [
+    "logeion-lego-latin"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/lex",
+   "keys": [
+    "logeion-lex"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/quadraginta",
+   "keys": [
+    "logeion-quadraginta"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/quattuor",
+   "keys": [
+    "logeion-quattuor"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/salarium",
+   "keys": [
+    "logeion-salarium"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://logeion.uchicago.edu/sincerus",
+   "keys": [
+    "logeion-sincerus"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/books/asd/dict-H",
+   "keys": [
+    "bosworth-toller-hatian-lrc",
+    "bosworth-toller-hettan-hettend"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/eieol/gotol/80",
+   "keys": [
+    "ut-gothic-hatis-derivation"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/eieol/iriol/0",
+   "keys": [
+    "ut-old-irish"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/languages/OHG",
+   "keys": [
+    "ut-ohg-reflex-index-kad"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/languages/OS",
+   "keys": [
+    "ut-old-saxon-reflex-index-kad"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/master/0684",
+   "keys": [
+    "ut-lrc-ghosti"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/master/0806",
+   "keys": [
+    "ut-pie-kad-reflex-page"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/master/1087",
+   "keys": [
+    "ut-pie-kwed-bore-prick-reflex-page"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/master/1131",
+   "keys": [
+    "uta-pie-leg"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/master/1132",
+   "keys": [
+    "uta-pie-legh"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/master/1188",
+   "keys": [
+    "uta-pie-love"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/master/1344",
+   "keys": [
+    "ut-lrc-mus"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://lrc.la.utexas.edu/lex/master/1648",
+   "keys": [
+    "uta-pie-sal"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://maoridictionary.co.nz/search?keywords=tapu",
+   "keys": [
+    "te-aka-tapu"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+   "keys": [
+    "mactutor-al-khwarizmi"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://mathshistory.st-andrews.ac.uk/Miller/a/",
+   "keys": [
+    "mactutor-a-words"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://mhdwb-online.de/wb/73899000",
+   "keys": [
+    "mhdwb-hetzen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://museum-publications.australian.museum/media/dd/Uploads/Documents/30384/AMS368_V13-11_lowres.c5a1be6.pdf",
+   "keys": [
+    "mccarthy-1961-boomerang"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://navajowotd.com/word/hooghan/",
+   "keys": [
+    "navajo-wotd-hooghan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://nl.wiktionary.org/wiki/vijand",
+   "keys": [
+    "wiktionary-nl-vijand-pronunciation"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://nl.wiktionary.org/wiki/vriend",
+   "keys": [
+    "wikiwoordenboek-vriend-pronunciation"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/mit24_900s22_lec23.pdf",
+   "keys": [
+    "mit-historical-linguistics-rex"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://old-icelandic.vercel.app/word/fja",
+   "keys": [
+    "zoega-fja"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://old-icelandic.vercel.app/word/hata",
+   "keys": [
+    "zoega-hata"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://old-norse.net/html/f.php",
+   "keys": [
+    "cleasby-vigfusson-fjandi"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "UND_ERR_CONNECT_TIMEOUT",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://old-norwegian-dictionary.vercel.app/word/fja",
+   "keys": [
+    "fritzner-fja"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://old-norwegian-dictionary.vercel.app/word/hata",
+   "keys": [
+    "fritzner-hata"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://old-swedish-dictionary.vercel.app/word/fiande",
+   "keys": [
+    "soderwall-fiande"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?c147103",
+   "keys": [
+    "onp-fjandi-akr22"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?c249803",
+   "keys": [
+    "onp-prosper-hatr-scorn"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?c265665",
+   "keys": [
+    "onp-hata-pall-216"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?c265666",
+   "keys": [
+    "onp-hata-homisl-89v20"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?c265750",
+   "keys": [
+    "onp-hata-di-vi-242"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?c265758",
+   "keys": [
+    "onp-hata-mork-103"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?c268129",
+   "keys": [
+    "onp-elucidarius-hatr"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?c818600",
+   "keys": [
+    "onp-hata-ragn-136"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?m448",
+   "keys": [
+    "holm-perg-15-89v-hata"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?m6991",
+   "keys": [
+    "handrit-am-674-a-4"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?o112056",
+   "keys": [
+    "onp-hatr-masculine"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?o20912",
+   "keys": [
+    "onp-fja"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?o21062",
+   "keys": [
+    "onp-fjandi"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?o24283",
+   "keys": [
+    "onp-fraendi",
+    "cleasby-vigfusson-fraendi",
+    "fritzner-fraendi",
+    "zoega-fraendi"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?o31879",
+   "keys": [
+    "onp-hata"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://onp.ku.dk/onp/onp.php?o31909",
+   "keys": [
+    "onp-hatr-neuter"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://oqaasileriffik.gl/en/qajaq-terms/",
+   "keys": [
+    "oqaasileriffik-qajaq"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ordnet.dk/ddo/ordbog/fjende",
+   "keys": [
+    "ddo-fjende"
+   ],
+   "status": "ok",
+   "http": 202,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ordnet.dk/go/ordbog/fiende",
+   "keys": [
+    "gammeldansk-fiende"
+   ],
+   "status": "ok",
+   "http": 202,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ordnet.dk/ho/ordbog/Fiende",
+   "keys": [
+    "holbergordbog-fiende"
+   ],
+   "status": "ok",
+   "http": 202,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://ordnet.dk/ods/ordbog/fjende",
+   "keys": [
+    "ods-fjende"
+   ],
+   "status": "ok",
+   "http": 202,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://pollex.eva.mpg.de/entry/tapu/",
+   "keys": [
+    "pollex-tapu"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "CERT_HAS_EXPIRED",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://quod.lib.umich.edu/c/cme/rollewks/1%3A1?rgn=div1%3Bview%3Dfulltext",
+   "keys": [
+    "mec-rolle-english-prose"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary?f%5Betyma_language%5D%5B%5D=&f%5Betyma_language%5D%5B%5D=Old+English&f%5Bpos%5D%5B%5D=noun&page=15&per_page=100&search_field=etyma&sort=score+desc",
+   "keys": [
+    "med-hate-noun-results"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED14631",
+   "keys": [
+    "med-etimologie"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED15580",
+   "keys": [
+    "med-fend"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED17655",
+   "keys": [
+    "med-frend"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED18637",
+   "keys": [
+    "med-girle"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED21451",
+   "keys": [
+    "med-humblen"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED24246",
+   "keys": [
+    "med-kin"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED24248",
+   "keys": [
+    "med-kinde-noun"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED24249",
+   "keys": [
+    "med-kinde-adjective"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED24299",
+   "keys": [
+    "med-king"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED26245",
+   "keys": [
+    "med-love"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED36311",
+   "keys": [
+    "med-rede-reden-suffix"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://repositorio.minedu.gob.pe/bitstream/handle/20.500.12799/7196/Yachachinapaq%20shimikuna%20-%20chawpin%20qichwa%20Vocabulario%20pedag%C3%B3gico%20quechua%20central.pdf?isAllowed=y&sequence=1",
+   "keys": [
+    "peru-minedu-quechua-llama"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://repozytorium.amu.edu.pl/items/62b4e495-6162-4255-8371-12da515ac82f",
+   "keys": [
+    "adamczyk-sievers-law"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://researchportal.helsinki.fi/en/publications/the-etymology-of-finnish-sauna-sauna/",
+   "keys": [
+    "kallio-2008-sauna"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://revistas.ucm.es/index.php/CFCG/en/article/view/83260",
+   "keys": [
+    "ayora-estevan-2023-fijands"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "UND_ERR_CONNECT_TIMEOUT",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://ruj.uj.edu.pl/entities/publication/b7857f75-e4d6-4fe5-a369-4c0f34dcae1e",
+   "keys": [
+    "alonso-2010-kayik-qayaq"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://runeberg.org/svetym/0223.html",
+   "keys": [
+    "hellquist-1922-fiende"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://sanskrit.uohyd.ac.in/SKT/MW/217.html",
+   "keys": [
+    "mw-sanskrit-rajan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.445/",
+   "keys": [
+    "scaife-iliad-1-445-kede"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0448.phi001.perseus-lat2:1.18/",
+   "keys": [
+    "caesar-gallic-war-scaife"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://scholarlypublications.universiteitleiden.nl/handle/1887/13139",
+   "keys": [
+    "nijdam-brokmer-b101"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://sites.lsa.umich.edu/ocbaxtersagart/wp-content/uploads/sites/1415/2025/03/BaxterSagartOCbyMandarinMC2014-09-20.pdf",
+   "keys": [
+    "baxter-sagart-tea"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://skaldic.org/m.php?p=teachtext&i=2331",
+   "keys": [
+    "skaldic-teaching-hymiskvida"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://skaldic.org/m.php?p=teachtext&i=2725",
+   "keys": [
+    "skaldic-teaching-skirnismal"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://slowniketymologiczny.uw.edu.pl/entry/126",
+   "keys": [
+    "uw-robota"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://sozluk.gov.tr/?ara=%C3%A7ay",
+   "keys": [
+    "tdk-turkish-cay"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://sozluk.gov.tr/?ara=yo%C4%9Furmak",
+   "keys": [
+    "tdk-yogurmak"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://sozluk.gov.tr/?ara=yo%C4%9Furt",
+   "keys": [
+    "tdk-yogurt"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://sozluk.gov.tr/?aranan=kay%C4%B1k",
+   "keys": [
+    "tdk-kayik"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://spraakbanken.gu.se/resurser/soederwall",
+   "keys": [
+    "spraakbanken-soderwall-metadata"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://starlingdb.org/cgi-bin/etymology.cgi?root=config&basename=%2Fdata%2Fie%2Fgermet&text_number=346&single=1",
+   "keys": [
+    "starling-germanic-hat-family"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://svenska.se/?activeTab=saob&q=fiende&exactMatch=true&id=9257024&homografNr=0",
+   "keys": [
+    "saob-fiende"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://svenska.se/?activeTab=saob&q=hata&exactMatch=true&id=9305473&homografNr=0",
+   "keys": [
+    "saob-hata"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://svenska.se/?activeTab=so&q=fiende&exactMatch=true&id=148616",
+   "keys": [
+    "svenska-so-fiende"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://tdk.gov.tr/wp-content/uploads/2019/12/VII.Kurultay-1.cilt_-1.pdf",
+   "keys": [
+    "boz-2012-turkish-cay"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://texts.alpheios.net/text/urn:cts:latinLit:phi0690.phi003.perseus-lat2",
+   "keys": [
+    "vergil-aeneid-perseus-lat2"
+   ],
+   "status": "broken",
+   "http": 404,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://theses.ncl.ac.uk/jspui/handle/10443/157",
+   "keys": [
+    "bailey-1997-ohg-weak-verb"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/18/03/18/62/2018031862/2018031862.pdf",
+   "keys": [
+    "fulk-comparative-germanic",
+    "fulk-2018-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://traugottpeople.sites.stanford.edu/sites/g/files/sbiybj28616/files/media/file/traugott2014a.pdf",
+   "keys": [
+    "traugott-2014-constructional-framework"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://uhpress.hawaii.edu/oceanic-linguistics-vol-43-no-2-2004/",
+   "keys": [
+    "blust-2004-t-to-k"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/King_Alfred%27s_West-Saxon_version_of_Gregory%27s_Pastoral_care.pdf",
+   "keys": [
+    "sweet-pastoral-care-353"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://vajehyab.com/dehkhoda/%DA%86%D8%A7%DB%8C",
+   "keys": [
+    "dehkhoda-persian-chay"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wals.info/chapter/138",
+   "keys": [
+    "wals-tea"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wehe.hilo.hawaii.edu/?q=kapu",
+   "keys": [
+    "wehewehe-kapu"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://woerterbuchnetz.de/?sigle=BMZ&lemid=H00608",
+   "keys": [
+    "bmz-hazze"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://woerterbuchnetz.de/?sigle=DWB&lemid=F02122",
+   "keys": [
+    "dwb-feind"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/lemma/1302.html",
+   "keys": [
+    "wulfila-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/lemma/1303.html",
+   "keys": [
+    "wulfila-hatizon"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/02/07/23.html",
+   "keys": [
+    "wulfila-john-7-23-hatizoth"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/03/03/07.html",
+   "keys": [
+    "wulfila-luke-3-7-hatiza"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/08/02/03.html",
+   "keys": [
+    "wulfila-ephesians-2-3-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/08/04/31.html",
+   "keys": [
+    "wulfila-ephesians-4-31-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/08/05/06.html",
+   "keys": [
+    "wulfila-ephesians-5-6-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/09/05/20.html",
+   "keys": [
+    "wulfila-galatians-5-20-hatiza"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/11/03/06.html",
+   "keys": [
+    "wulfila-colossians-3-6-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/11/03/08.html",
+   "keys": [
+    "wulfila-colossians-3-8-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/12/02/16.html",
+   "keys": [
+    "wulfila-first-thessalonians-2-16-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/12/05/09.html",
+   "keys": [
+    "wulfila-first-thessalonians-5-9-hatis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wulfila.be/gothic/browse/text/19/08/05.html",
+   "keys": [
+    "wulfila-skeireins-8-5-hatiza"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/indoeurop.html",
+   "keys": [
+    "ahd-ie-mus",
+    "ahd-ie-ghosti",
+    "ahd-ie-skei",
+    "ahd-ie-dekm",
+    "ahd-ie-bher",
+    "ahd-ie-wer5",
+    "ahd-ie-ad",
+    "ahd-ie-per1",
+    "ahd-ie-deru",
+    "ahd-ie-reg",
+    "ahd-ie-man1",
+    "ahd-ie-dhei",
+    "ahd-ie-dhghem",
+    "ahd-ie-okw",
+    "ahd-ie-wer3",
+    "ahd-ie-dheigh",
+    "ahd-ie-bheue",
+    "ahd-ie-gwou",
+    "ahd-ie-gene"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=algorithm",
+   "keys": [
+    "ahd-algorithm"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=betroth",
+   "keys": [
+    "ahd-betroth"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=boy",
+   "keys": [
+    "ahd-boy"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=bridegroom",
+   "keys": [
+    "ahd-bridegroom"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=chthonic",
+   "keys": [
+    "ahd-chthonic"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=clew",
+   "keys": [
+    "ahd-clew"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=conscience",
+   "keys": [
+    "ahd-conscience"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=conscious",
+   "keys": [
+    "ahd-conscious"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=direct",
+   "keys": [
+    "ahd-direct"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=dough",
+   "keys": [
+    "ahd-dough"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=emotion",
+   "keys": [
+    "ahd-emotion"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=figure",
+   "keys": [
+    "ahd-figure"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=FRIEND",
+   "keys": [
+    "ahd-friend"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=girl",
+   "keys": [
+    "ahd-girl"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=host",
+   "keys": [
+    "ahd-host"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=hostile",
+   "keys": [
+    "ahd-hostile"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=human",
+   "keys": [
+    "ahd-human"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=humiliation",
+   "keys": [
+    "ahd-humiliation"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=humility",
+   "keys": [
+    "ahd-humility"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=humus",
+   "keys": [
+    "ahd-humus"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=husband",
+   "keys": [
+    "ahd-husband"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=icon",
+   "keys": [
+    "ahd-icon"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=intellect",
+   "keys": [
+    "ahd-intellect"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=intelligent",
+   "keys": [
+    "ahd-intelligent"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=lady",
+   "keys": [
+    "ahd-lady"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=lay",
+   "keys": [
+    "ahd-lay"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=legible",
+   "keys": [
+    "ahd-legible"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=logy",
+   "keys": [
+    "ahd-logy"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=lord",
+   "keys": [
+    "ahd-lord"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=man",
+   "keys": [
+    "ahd-man"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=mouse",
+   "keys": [
+    "ahd-mouse"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=muscle",
+   "keys": [
+    "ahd-muscle"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=mussel",
+   "keys": [
+    "ahd-mussel"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=omniscient",
+   "keys": [
+    "ahd-omniscient"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=prescient",
+   "keys": [
+    "ahd-prescient"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=prosopopeia",
+   "keys": [
+    "ahd-prosopopeia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=RAJA",
+   "keys": [
+    "ahd-raja"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=realm",
+   "keys": [
+    "ahd-realm"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=regal",
+   "keys": [
+    "ahd-regal"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=regular",
+   "keys": [
+    "ahd-regular"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=rich",
+   "keys": [
+    "ahd-rich"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=right",
+   "keys": [
+    "ahd-right"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=royal",
+   "keys": [
+    "ahd-royal"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=rule",
+   "keys": [
+    "ahd-rule"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=tree",
+   "keys": [
+    "ahd-tree"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=troth",
+   "keys": [
+    "ahd-troth"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=truce",
+   "keys": [
+    "ahd-truce"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=true",
+   "keys": [
+    "ahd-true"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=trust",
+   "keys": [
+    "ahd-trust"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=truth",
+   "keys": [
+    "ahd-truth"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.ahdictionary.com/word/search.html?q=word",
+   "keys": [
+    "ahd-word"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cambridge.org/core/books/abs/english-as-a-global-language/why-english-the-historical-context/39284D2FB6C02AA7106B6B9313CD9E6B",
+   "keys": [
+    "crystal-2003-global-english"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2A068AAF46C266A5252C5C0B3B042FFB/S0097850754125571a.pdf/notes_on_gothic_forms.pdf",
+   "keys": [
+    "sturtevant-1954-hatan-hatjan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5C9676E419C0C1F3BA789C13840D4420/9781108499798c9_135-151.pdf/celtic.pdf",
+   "keys": [
+    "cambridge-celtic"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cnrtl.fr/definition/%C3%A9tymologique",
+   "keys": [
+    "cnrtl-french-etymologique"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cnrtl.fr/definition/%C3%A9tymon",
+   "keys": [
+    "cnrtl-french-etymon"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cnrtl.fr/etymologie/%C3%A9tymologie",
+   "keys": [
+    "cnrtl-etymologie"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cnrtl.fr/etymologie/candidate//0",
+   "keys": [
+    "cnrtl-candidate"
+   ],
+   "status": "broken",
+   "http": 404,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://www.cnrtl.fr/etymologie/humiliation",
+   "keys": [
+    "cnrtl-humiliation"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cnrtl.fr/etymologie/humilit%C3%A9",
+   "keys": [
+    "cnrtl-humilite"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cnrtl.fr/etymologie/jaguar",
+   "keys": [
+    "cnrtl-jaguar"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cnrtl.fr/etymologie/l%C3%A9gislation",
+   "keys": [
+    "cnrtl-legislation"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.cnrtl.fr/etymologie/sincere",
+   "keys": [
+    "cnrtl-sincere"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.columbia.edu/cu/lweb/digital/collections/cul/texts/ldpd_8661431_000/ldpd_8661431_000.pdf",
+   "keys": [
+    "gundert-malayalam-manga"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.degruyterbrill.com/document/doi/10.1515/9783110223354/html",
+   "keys": [
+    "beekes-2010"
+   ],
+   "status": "ok",
+   "http": 202,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dictionnaire-academie.fr/article/A9E3024",
+   "keys": [
+    "academie-etymologie"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dictionnaire-academie.fr/article/A9E3025",
+   "keys": [
+    "academie-french-etymologique"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dictionnaire-academie.fr/article/A9E3028",
+   "keys": [
+    "academie-french-etymon"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.digitale-sammlungen.de/en/view/bsb00026305?page=142",
+   "keys": [
+    "mdz-cgm25-scan142-hatandiero"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.digitale-sammlungen.de/en/view/bsb00026305?page=150",
+   "keys": [
+    "mdz-cgm25-scan150-hotie"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.digitale-sammlungen.de/en/view/bsb00026305?page=152",
+   "keys": [
+    "mdz-cgm25-scan152-hotean"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.digitale-sammlungen.de/en/view/bsb00026305?page=41",
+   "keys": [
+    "mdz-cgm25-scan41-heti"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.digitale-sammlungen.de/en/view/bsb00026305?page=44,45",
+   "keys": [
+    "mdz-cgm25-scan45-hatan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dil.ie/35181",
+   "keys": [
+    "edil-ri"
+   ],
+   "status": "unreachable",
+   "http": 0,
+   "error": "ECONNRESET",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://www.duden.de/rechtschreibung/Feind",
+   "keys": [
+    "duden-feind"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.duden.de/rechtschreibung/Freund",
+   "keys": [
+    "duden-freund"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.duden.de/rechtschreibung/Hass",
+   "keys": [
+    "duden-hass"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.duden.de/rechtschreibung/hassen",
+   "keys": [
+    "duden-hassen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.duden.de/rechtschreibung/hetzen",
+   "keys": [
+    "duden-hetzen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.duden.de/rechtschreibung/lieb",
+   "keys": [
+    "duden-lieb"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.duden.de/rechtschreibung/Liebe",
+   "keys": [
+    "duden-liebe"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.duden.de/rechtschreibung/Weib",
+   "keys": [
+    "duden-weib"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dwds.de/wb/dwb/Freund",
+   "keys": [
+    "dwb-freund"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dwds.de/wb/dwb/Hass",
+   "keys": [
+    "dwds-dwb-hass"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dwds.de/wb/dwb/hassen",
+   "keys": [
+    "dwds-dwb-hassen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dwds.de/wb/Feind",
+   "keys": [
+    "dwds-feind-pfeifer"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dwds.de/wb/Freund",
+   "keys": [
+    "dwds-freund-pfeifer"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dwds.de/wb/Hass",
+   "keys": [
+    "dwds-hass-pfeifer"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.dwds.de/wb/hassen",
+   "keys": [
+    "dwds-hassen-pfeifer"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.e-rara.ch/zut/content/titleinfo/2867062",
+   "keys": [
+    "erara-harris-lexicon-1704"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymologiebank.nl/trefwoord/vriend",
+   "keys": [
+    "ewn-vriend"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/-al",
+   "keys": [
+    "etymonline-suffix-al"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/-ical",
+   "keys": [
+    "etymonline-suffix-ical"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/-ist",
+   "keys": [
+    "etymonline-suffix-ist"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/-ize",
+   "keys": [
+    "etymonline-suffix-ize"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/algorism",
+   "keys": [
+    "etymonline-algorism"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/arithmetic",
+   "keys": [
+    "etymonline-arithmetic"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/dialogue",
+   "keys": [
+    "etymonline-dialogue"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/emotion",
+   "keys": [
+    "etymonline-emotion"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/etymological",
+   "keys": [
+    "etymonline-etymological"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/etymologist",
+   "keys": [
+    "etymonline-etymologist"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/etymologize",
+   "keys": [
+    "etymonline-etymologize"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/icon",
+   "keys": [
+    "etymonline-icon"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/law",
+   "keys": [
+    "etymonline-law"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/lay",
+   "keys": [
+    "etymonline-lay"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/legible",
+   "keys": [
+    "etymonline-legible"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/legislation",
+   "keys": [
+    "etymonline-legislation"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/prescient",
+   "keys": [
+    "etymonline-prescient"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/prologue",
+   "keys": [
+    "etymonline-prologue"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.etymonline.com/word/salt",
+   "keys": [
+    "etymonline-salt"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.germanic-lexicon-project.org/html/goth_wright/b0326.html",
+   "keys": [
+    "wright-gothic-grammar-hate-verbs"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.germanic-lexicon-project.org/html/ohg_sievers_tatian/b0096.html",
+   "keys": [
+    "sievers-1892-tatian-72"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%CE%BC%E1%BF%A6%CF%82",
+   "keys": [
+    "cgl-ls-mys"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html?lq=%CE%BC%CF%85%CF%82",
+   "keys": [
+    "cgl-modern-mys"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.gutenberg.org/files/31543/old/files/dict_hn.html",
+   "keys": [
+    "clark-hall-hete"
+   ],
+   "status": "broken",
+   "http": 503,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://www.gutenberg.org/files/50336/50336-h/50336-h.htm",
+   "keys": [
+    "braune-balg-gothic-grammar-hate-verbs"
+   ],
+   "status": "broken",
+   "http": 503,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://www.infopedia.pt/dicionarios/lingua-portuguesa/CH%C3%81",
+   "keys": [
+    "infopedia-portuguese-cha"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.iranicaonline.org/articles/achaemenid-dynasty/",
+   "keys": [
+    "iranica-achaemenid-dynasty-i"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.iranicaonline.org/articles/cay-tea/",
+   "keys": [
+    "iranica-tea"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.iranicaonline.org/articles/chess/chess-i-the-history-of-chess-in-persia/",
+   "keys": [
+    "iranica-chess"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.isars.org/wp-content/uploads/2020/12/ShamanVol16_2008_dld.pdf",
+   "keys": [
+    "zieme-2008-shaman"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.jbe-platform.com/content/journals/10.1075/nowele.66.2.04hei",
+   "keys": [
+    "marti-heinzle-ohg-en-on-double-forms"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001621723",
+   "keys": [
+    "moon-old-english-i-umlaut"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.koeblergerhard.de/afries/afries_h.html",
+   "keys": [
+    "koebler-altfriesisch-hatia"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.koeblergerhard.de/afrieswbhinw.html",
+   "keys": [
+    "koebler-altfriesisch-method"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.koeblergerhard.de/as/4A/as_h.html",
+   "keys": [
+    "koebler-old-saxon-haton-hettiand"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.lwl.org/331-download/niw/html/40001B.html",
+   "keys": [
+    "lwl-heliand-cgm25-transcription"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/-logy",
+   "keys": [
+    "mw-logy"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/adverb",
+   "keys": [
+    "mw-adverb"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/algebra",
+   "keys": [
+    "mw-algebra"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/algorism",
+   "keys": [
+    "mw-algorism"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/algorithm",
+   "keys": [
+    "mw-algorithm"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/alpaca",
+   "keys": [
+    "mw-alpaca"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/arithmetic",
+   "keys": [
+    "mw-arithmetic"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/arithmo-",
+   "keys": [
+    "mw-arithmo"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/avocado",
+   "keys": [
+    "mw-avocado"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/bayou",
+   "keys": [
+    "mw-bayou"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/be-",
+   "keys": [
+    "mw-be-prefix"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/betroth",
+   "keys": [
+    "mw-betroth"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/boomerang",
+   "keys": [
+    "mw-boomerang"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/boy",
+   "keys": [
+    "mw-boy"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/bride",
+   "keys": [
+    "mw-bride"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/bridegroom",
+   "keys": [
+    "mw-bridegroom"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/calculate",
+   "keys": [
+    "mw-calculate"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/calculator",
+   "keys": [
+    "mw-calculator"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/calculus",
+   "keys": [
+    "mw-calculus"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/candid",
+   "keys": [
+    "mw-candid"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/candidate",
+   "keys": [
+    "mw-candidate"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/candor",
+   "keys": [
+    "mw-candor"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/chai",
+   "keys": [
+    "mw-chai"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/chalk",
+   "keys": [
+    "mw-chalk"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/check",
+   "keys": [
+    "mw-check"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/checkmate",
+   "keys": [
+    "mw-checkmate"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/chess",
+   "keys": [
+    "mw-chess"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/chthonic",
+   "keys": [
+    "mw-chthonic"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/clew",
+   "keys": [
+    "mw-clew"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/clue",
+   "keys": [
+    "mw-clue"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/collect",
+   "keys": [
+    "mw-collect"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/conscience",
+   "keys": [
+    "mw-conscience"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/conscious",
+   "keys": [
+    "mw-conscious"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/dairy",
+   "keys": [
+    "mw-dairy"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/December",
+   "keys": [
+    "mw-december"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/decimal",
+   "keys": [
+    "mw-decimal"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/decimate",
+   "keys": [
+    "mw-decimate"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/dialogue",
+   "keys": [
+    "mw-dialogue"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/dime",
+   "keys": [
+    "mw-dime"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/direct",
+   "keys": [
+    "mw-direct"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/disaster",
+   "keys": [
+    "mw-disaster"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/dough",
+   "keys": [
+    "mw-dough"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/emoji",
+   "keys": [
+    "mw-emoji"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/emoticon",
+   "keys": [
+    "mw-emoticon"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/emotion",
+   "keys": [
+    "mw-emotion"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/etymological",
+   "keys": [
+    "mw-etymological"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/etymologist",
+   "keys": [
+    "mw-etymologist"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/etymologize",
+   "keys": [
+    "mw-etymologize"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/etymology",
+   "keys": [
+    "mw-etymology"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/etymon",
+   "keys": [
+    "mw-etymon"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/exhume",
+   "keys": [
+    "mw-exhume"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/feign",
+   "keys": [
+    "mw-feign"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/female",
+   "keys": [
+    "mw-female"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/fiction",
+   "keys": [
+    "mw-fiction"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/figure",
+   "keys": [
+    "mw-figure"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/girl",
+   "keys": [
+    "mw-girl"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/guest",
+   "keys": [
+    "mw-guest"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hammock",
+   "keys": [
+    "mw-hammock"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hate",
+   "keys": [
+    "mw-hate"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hatred",
+   "keys": [
+    "mw-hatred"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hogan",
+   "keys": [
+    "mw-hogan"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hospice",
+   "keys": [
+    "mw-hospice"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hospital",
+   "keys": [
+    "mw-hospital"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hospitality",
+   "keys": [
+    "mw-hospitality"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/host",
+   "keys": [
+    "mw-host"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hostel",
+   "keys": [
+    "mw-hostel"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hostile",
+   "keys": [
+    "mw-hostile"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/hotel",
+   "keys": [
+    "mw-hotel"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/human",
+   "keys": [
+    "mw-human"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/humble",
+   "keys": [
+    "mw-humble"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/humiliate",
+   "keys": [
+    "mw-humiliate"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/humiliation",
+   "keys": [
+    "mw-humiliation"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/humility",
+   "keys": [
+    "mw-humility"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/humus",
+   "keys": [
+    "mw-humus"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/husband",
+   "keys": [
+    "mw-husband"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/icon",
+   "keys": [
+    "mw-icon"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/intellect",
+   "keys": [
+    "mw-intellect"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/intelligence",
+   "keys": [
+    "mw-intelligence"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/intelligent",
+   "keys": [
+    "mw-intelligent"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/jaguar",
+   "keys": [
+    "mw-jaguar"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/kayak",
+   "keys": [
+    "mw-kayak"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/kimchi",
+   "keys": [
+    "mw-kimchi"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/kin",
+   "keys": [
+    "mw-kin"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/kind",
+   "keys": [
+    "mw-kind"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/kindred",
+   "keys": [
+    "mw-kindred"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/king",
+   "keys": [
+    "mw-king"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/lady",
+   "keys": [
+    "mw-lady"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/law",
+   "keys": [
+    "mw-law"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/lay",
+   "keys": [
+    "mw-lay"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/lecture",
+   "keys": [
+    "mw-lecture"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/legal",
+   "keys": [
+    "mw-legal"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/legend",
+   "keys": [
+    "mw-legend"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/legible",
+   "keys": [
+    "mw-legible"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/legislation",
+   "keys": [
+    "mw-legislation"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/legislator",
+   "keys": [
+    "mw-legislator"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/lesson",
+   "keys": [
+    "mw-lesson"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/llama",
+   "keys": [
+    "mw-llama"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/loaf",
+   "keys": [
+    "mw-loaf"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/logic",
+   "keys": [
+    "mw-logic"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/lord",
+   "keys": [
+    "mw-lord"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/love",
+   "keys": [
+    "mw-love"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/Mal",
+   "keys": [
+    "mw-mal"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/male",
+   "keys": [
+    "mw-male"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/man",
+   "keys": [
+    "mw-man"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/mango",
+   "keys": [
+    "mw-mango"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/moose",
+   "keys": [
+    "mw-moose"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/mouse",
+   "keys": [
+    "mw-mouse"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/muscle",
+   "keys": [
+    "mw-muscle"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/mussel",
+   "keys": [
+    "mw-mussel"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/nescience",
+   "keys": [
+    "mw-nescience"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/nice",
+   "keys": [
+    "mw-nice"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/omniscient",
+   "keys": [
+    "mw-omniscient"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/orphan",
+   "keys": [
+    "mw-orphan"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/person",
+   "keys": [
+    "mw-person"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/poncho",
+   "keys": [
+    "mw-poncho"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/prescient",
+   "keys": [
+    "mw-prescient"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/prologue",
+   "keys": [
+    "mw-prologue"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/proverb",
+   "keys": [
+    "mw-proverb"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/quarantine",
+   "keys": [
+    "mw-quarantine"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/raja",
+   "keys": [
+    "mw-raja"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/realm",
+   "keys": [
+    "mw-realm"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/regal",
+   "keys": [
+    "mw-regal"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/regular",
+   "keys": [
+    "mw-regular"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/regulate",
+   "keys": [
+    "mw-regulate"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/rich",
+   "keys": [
+    "mw-rich"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/right",
+   "keys": [
+    "mw-right"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/robot",
+   "keys": [
+    "mw-robot"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/royal",
+   "keys": [
+    "mw-royal"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/rule",
+   "keys": [
+    "mw-rule"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/salary",
+   "keys": [
+    "mw-salary"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/salt",
+   "keys": [
+    "mw-salt"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/sauna",
+   "keys": [
+    "mw-sauna"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/science",
+   "keys": [
+    "mw-science"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/select",
+   "keys": [
+    "mw-select"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/shah",
+   "keys": [
+    "mw-shah"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/shaman",
+   "keys": [
+    "mw-shaman"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/sincere",
+   "keys": [
+    "mw-sincere"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/taboo",
+   "keys": [
+    "mw-taboo"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/tea",
+   "keys": [
+    "mw-tea"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/ten",
+   "keys": [
+    "mw-ten"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/tepee",
+   "keys": [
+    "mw-tepee"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/tree",
+   "keys": [
+    "mw-tree"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/troth",
+   "keys": [
+    "mw-troth"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/truce",
+   "keys": [
+    "mw-truce"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/true",
+   "keys": [
+    "mw-true"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/trust",
+   "keys": [
+    "mw-trust"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/truth",
+   "keys": [
+    "mw-truth"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/verb",
+   "keys": [
+    "mw-verb"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/verbal",
+   "keys": [
+    "mw-verbal"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/verbatim",
+   "keys": [
+    "mw-verbatim"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/wife",
+   "keys": [
+    "mw-wife"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/woman",
+   "keys": [
+    "mw-woman"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/word",
+   "keys": [
+    "mw-word"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/dictionary/yogurt",
+   "keys": [
+    "mw-yogurt"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/grammar/homophones-with-more-than-one-syllable",
+   "keys": [
+    "mw-muscle-mussel"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/grammar/how-to-use-the-dictionary/first-known-use",
+   "keys": [
+    "mw-first-known-use-guide"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/grammar/the-original-definition-of-decimate",
+   "keys": [
+    "mw-decimate-usage"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/help/explanatory-notes/dict-combining-forms",
+   "keys": [
+    "mw-combining-forms"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/help/faq-etymology",
+   "keys": [
+    "mw-etymology-faq"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/wordplay/algebra-calculus-other-types-of-math",
+   "keys": [
+    "mw-math-word-origins"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/wordplay/financial-word-origins",
+   "keys": [
+    "mw-financial-word-origins"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/wordplay/nice-multiple-meanings",
+   "keys": [
+    "mw-nice-meanings"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.merriam-webster.com/wordplay/word-history-hospital-hostel-hotel-hospice",
+   "keys": [
+    "mw-hospital-family"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/006mt5f.html",
+   "keys": [
+    "codex-argenteus-3v"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/031mt10f.html",
+   "keys": [
+    "codex-argenteus-27r"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/057jh7f.html",
+   "keys": [
+    "codex-argenteus-33r"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/060jh7f.html",
+   "keys": [
+    "codex-argenteus-94v"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/096jh12f.html",
+   "keys": [
+    "codex-argenteus-76v"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/145lc1f.html",
+   "keys": [
+    "codex-argenteus-123r"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/157lc3f.html",
+   "keys": [
+    "codex-argenteus-129r"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/186lc6f.html",
+   "keys": [
+    "codex-argenteus-143v"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/228lc10f.html",
+   "keys": [
+    "codex-argenteus-164v"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.modeemi.fi/~david/Codex_Argenteus/jpg_files/276mc1f.html",
+   "keys": [
+    "codex-argenteus-57v"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.oed.com/dictionary/clue_n",
+   "keys": [
+    "oed-clue"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.oed.com/dictionary/fiend_n",
+   "keys": [
+    "oed-fiend-2026"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.oed.com/dictionary/friend_n",
+   "keys": [
+    "oed-friend"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.oed.com/dictionary/sincere_adj",
+   "keys": [
+    "oed-sincere"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.osa.fu-berlin.de/germanistik/beispielaufgaben/sprachwandel/index.html",
+   "keys": [
+    "fu-berlin-weib-sprachwandel"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.oxfordlearnersdictionaries.com/definition/english/boy_1",
+   "keys": [
+    "oxford-boy"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/algebra",
+   "keys": [
+    "oxford-algebra"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.persee.fr/doc/ecelt_0373-1928_1972_num_13_1_1498",
+   "keys": [
+    "bolelli-campanile-rix"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.rekhtadictionary.com/meaning-of-chaa?lang=ur",
+   "keys": [
+    "rekhta-urdu-chaa-history"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.rekhtadictionary.com/meaning-of-chaae?lang=ur",
+   "keys": [
+    "rekhta-urdu-chaae"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.scielo.cl/scielo.php?pid=S0718-93032010000200008&script=sci_arttext",
+   "keys": [
+    "sanchez-mapuchismos-poncho"
+   ],
+   "status": "blocked",
+   "http": 403,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.unicode.org/faq/emoji_dingbats.html",
+   "keys": [
+    "unicode-emoji-faq"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.up.ac.za/media/shared/82/Thinking%20Africa/Update%20Sep%202019/ubuntu-curating-the-archive-text.zp180337.pdf",
+   "keys": [
+    "praeg-magadla-ubuntu"
+   ],
+   "status": "broken",
+   "http": 404,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://www.uu.se/en/library/visit-and-contact/exhibitions/codex-argenteus/the-history-of-codex-argenteus",
+   "keys": [
+    "uppsala-codex-argenteus-history"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.voluspa.org/literal/lokasenna.htm",
+   "keys": [
+    "voluspa-lokasenna"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wales.ac.uk/sites/uw/files/2024-11/Celto-Germanic2020.pdf",
+   "keys": [
+    "koch-celto-germanic-hatred"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.woerterbuchnetz.de/Lexer?lemid=LH00895",
+   "keys": [
+    "lexer-hazzen"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/lemma/0791.html",
+   "keys": [
+    "wulfila-fian"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/lemma/0799.html",
+   "keys": [
+    "wulfila-fijan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/lemma/0800.html",
+   "keys": [
+    "wulfila-fijands"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/lemma/1301.html",
+   "keys": [
+    "wulfila-hatan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/lemma/1304.html",
+   "keys": [
+    "wulfila-hatjan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/lemma/1862.html",
+   "keys": [
+    "wulfila-liufs"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/01/05/43.html",
+   "keys": [
+    "wulfila-matthew-5-43-fiais"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/01/05/44.html",
+   "keys": [
+    "wulfila-matthew-5-44-hatjandam",
+    "wulfila-matthew-5-44-fijands"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/01/10/36.html",
+   "keys": [
+    "wulfila-matthew-10-36-fijands"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/02/07/07.html",
+   "keys": [
+    "wulfila-john-7-7-fijan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/02/12/25.html",
+   "keys": [
+    "wulfila-john-12-25-fiaeth"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/03/01/71.html",
+   "keys": [
+    "wulfila-luke-1-71-hatandane"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/03/01/74.html",
+   "keys": [
+    "wulfila-luke-1-74-fijande"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/03/06/22.html",
+   "keys": [
+    "wulfila-luke-6-22-fijand"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/03/06/27.html",
+   "keys": [
+    "wulfila-luke-6-27-hatandans"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/03/10/19.html",
+   "keys": [
+    "wulfila-luke-10-19-fijandis"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/04/01/11.html",
+   "keys": [
+    "wulfila-mark-1-11"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/05/11/28.html",
+   "keys": [
+    "wulfila-romans-11-28-fijandans"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/05/12/09.html",
+   "keys": [
+    "wulfila-romans-12-9-fiandans"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/gothic/browse/text/09/04/16.html",
+   "keys": [
+    "wulfila-galatians-4-16-fijands"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/lib/streitberg/1910/html/B034.html",
+   "keys": [
+    "streitberg-fijan-fijands"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://www.wulfila.be/lib/streitberg/1910/pdf/streitberg1910_1.pdf",
+   "keys": [
+    "streitberg-hatis"
+   ],
+   "status": "broken",
+   "http": 404,
+   "error": "",
+   "since": "2026-11-22"
+  },
+  {
+   "url": "https://www.wulfila.be/lib/streitberg/1910/text/html/#P055.14",
+   "keys": [
+    "streitberg-hatan"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  },
+  {
+   "url": "https://wwwnc.cdc.gov/eid/article/19/2/et-1902_article",
+   "keys": [
+    "cdc-quarantine"
+   ],
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
+  }
+ ]
+}
