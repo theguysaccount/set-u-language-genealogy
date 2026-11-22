@@ -2,10 +2,10 @@
  "checked": "2026-11-22",
  "summary": {
   "total": 600,
-  "ok": 362,
-  "blocked": 215,
-  "unreachable": 14,
-  "broken": 9
+  "ok": 353,
+  "blocked": 216,
+  "unreachable": 23,
+  "broken": 8
  },
  "results": [
   {
@@ -273,20 +273,20 @@
    "keys": [
     "perseus-lsj-prosopon"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "ECONNRESET",
+   "since": "2026-11-22"
   },
   {
    "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n21059/",
    "keys": [
     "scaife-ls-humilitas"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "ECONNRESET",
+   "since": "2026-11-22"
   },
   {
    "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n41625/",
@@ -343,8 +343,8 @@
    "keys": [
     "liberman-2018-hatred-2"
    ],
-   "status": "ok",
-   "http": 200,
+   "status": "blocked",
+   "http": 403,
    "error": "",
    "since": null
   },
@@ -713,10 +713,10 @@
    "keys": [
     "tio-saenz-old-english-weak-verbs"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "ECONNRESET",
+   "since": "2026-11-22"
   },
   {
    "url": "https://dictionary.choctaw.org/en/word?word=Bo%CC%81k",
@@ -833,19 +833,19 @@
    "keys": [
     "galis-2017-mycenae"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "The operation was aborted due to timeout",
+   "since": "2026-11-22"
   },
   {
    "url": "https://dspace.uib.es/xmlui/handle/11201/166976",
    "keys": [
     "loureiro-porto-kind-of"
    ],
-   "status": "broken",
-   "http": 404,
-   "error": "",
+   "status": "unreachable",
+   "http": 0,
+   "error": "UND_ERR_CONNECT_TIMEOUT",
    "since": "2026-11-22"
   },
   {
@@ -1123,10 +1123,10 @@
    "keys": [
     "wiese-sanskrit-ie"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "UND_ERR_CONNECT_TIMEOUT",
+   "since": "2026-11-22"
   },
   {
    "url": "https://hdl.handle.net/11577/2487804",
@@ -1203,10 +1203,10 @@
    "keys": [
     "ylikoski-kiuas"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "UND_ERR_CONNECT_TIMEOUT",
+   "since": "2026-11-22"
   },
   {
    "url": "https://kotus.fi/sana/sauna/",
@@ -5716,10 +5716,10 @@
    "keys": [
     "rekhta-urdu-chaae"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "UND_ERR_CONNECT_TIMEOUT",
+   "since": "2026-11-22"
   },
   {
    "url": "https://www.scielo.cl/scielo.php?pid=S0718-93032010000200008&script=sci_arttext",
@@ -5756,10 +5756,10 @@
    "keys": [
     "uppsala-codex-argenteus-history"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "redirect count exceeded",
+   "since": "2026-11-22"
   },
   {
    "url": "https://www.voluspa.org/literal/lokasenna.htm",
