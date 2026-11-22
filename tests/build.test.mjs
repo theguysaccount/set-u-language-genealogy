@@ -99,3 +99,69 @@ test("the home page lists every dossier and the search index covers every form",
   const forms = JSON.parse(read(dir, "data/dossiers.json")).data.length;
   assert.equal(index.reduce((n, r) => n + r.f.length, 0), forms);
 });
+
+const parseJsonLd = (html) =>
+  [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => JSON.parse(m[1]));
+
+const metaTag = (html, name) => {
+  const m = html.match(new RegExp(`<meta name="${name}" content="([^"]*)">`));
+  return m ? m[1] : null;
+};
+
+const pageTitle = (html) => {
+  const m = html.match(/<title>([^<]*)<\/title>/);
+  return m ? m[1] : null;
+};
+
+test("indexable pages emit valid JSON-LD, search-intent titles, concise descriptions, and social cards", () => {
+  const dir = path.join(out, "a");
+  const home = read(dir, "index.html");
+  const data = read(dir, "data/index.html");
+  const cites = read(dir, "data/citations/index.html");
+
+  for (const [label, html] of [["home", home], ["data", data], ["citations", cites]]) {
+    const title = pageTitle(html);
+    const desc = metaTag(html, "description");
+    assert.ok(title && title.length <= 65, `${label} title too long: ${title}`);
+    assert.ok(desc && desc.length >= 60 && desc.length <= 165, `${label} desc length: ${desc?.length}`);
+    assert.ok(html.includes('<meta name="twitter:title"'), `${label} twitter:title`);
+    assert.ok(html.includes('<meta name="twitter:description"'), `${label} twitter:description`);
+    assert.ok(html.includes('<meta name="twitter:image"'), `${label} twitter:image`);
+    assert.equal(parseJsonLd(html).length, 1, `${label} should emit JSON-LD`);
+  }
+
+  const homeGraph = parseJsonLd(home)[0]["@graph"];
+  const org = homeGraph.find((n) => n["@type"] === "Organization");
+  const website = homeGraph.find((n) => n["@type"] === "WebSite");
+  const dataset = homeGraph.find((n) => n["@type"] === "Dataset");
+  assert.equal(org.url, `${live}/`);
+  assert.equal(website.potentialAction["@type"], "SearchAction");
+  assert.equal(website.potentialAction.target.urlTemplate, "https://example.org/setu/?q={search_term_string}");
+  assert.equal(dataset.isAccessibleForFree, true);
+  assert.equal("license" in dataset, false, "must not fabricate an undeclared license");
+  assert.ok(dataset.distribution.some((d) => d.encodingFormat === "application/x-sqlite3"));
+
+  const dataGraph = parseJsonLd(data)[0]["@graph"];
+  const catalog = dataGraph.find((n) => n["@type"] === "DataCatalog");
+  const manifest = JSON.parse(read(dir, "data/manifest.json"));
+  assert.ok(dataGraph.some((n) => n["@type"] === "BreadcrumbList"));
+  assert.equal(catalog.dataset.length, manifest.datasets.length);
+
+  const citesGraph = parseJsonLd(cites)[0]["@graph"];
+  assert.ok(citesGraph.some((n) => n["@type"] === "BreadcrumbList"));
+});
+
+test("dossier JSON-LD DefinedTerm follows live canonical by default and self-canonical when ARCHIVE_INDEXABLE=true", () => {
+  const archiveHtml = read(path.join(out, "a"), "word/salary/index.html");
+  const archiveGraph = parseJsonLd(archiveHtml)[0]["@graph"];
+  const archiveTerm = archiveGraph.find((n) => n["@type"] === "DefinedTerm");
+  assert.equal(archiveTerm.name, "salary");
+  assert.equal(archiveTerm.url, `${live}/word/salary`);
+  assert.ok(pageTitle(archiveHtml).includes("Etymology"));
+
+  const selfHtml = read(path.join(out, "b"), "word/salary/index.html");
+  const selfGraph = parseJsonLd(selfHtml)[0]["@graph"];
+  const selfTerm = selfGraph.find((n) => n["@type"] === "DefinedTerm");
+  assert.equal(selfTerm.url, "https://example.org/setu/word/salary/");
+  assert.ok(!pageTitle(selfHtml).includes("(Archive)"));
+});

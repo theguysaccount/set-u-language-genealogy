@@ -3,6 +3,29 @@
 export const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 export const fmt = (n) => Number(n).toLocaleString("en-US");
 
+export function truncateDesc(text, max = 160) {
+  const clean = String(text ?? "").replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  const cut = clean.slice(0, max - 1);
+  const lastSpace = cut.lastIndexOf(" ");
+  const trimmed = (lastSpace > max * 0.6 ? cut.slice(0, lastSpace) : cut)
+    .replace(/[.,;:\s]+$/, "")
+    .replace(/\s+\b(?:with|and|or|of|to|for|in|from|by|the|a|an)$/i, "")
+    .replace(/[.,;:\s]+$/, "");
+  return trimmed + "…";
+}
+
+export function jsonLdScript(data) {
+  if (!data) return "";
+  const json = JSON.stringify(data)
+    .replace(/</g, "\\u003c")
+    .replace(/>/g, "\\u003e")
+    .replace(/&/g, "\\u0026")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
+  return `<script type="application/ld+json">${json}</script>\n`;
+}
+
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 export function longDate(iso) {
   if (!iso) return "";
@@ -10,10 +33,12 @@ export function longDate(iso) {
   return `${d} ${MONTHS[m - 1]} ${y}`;
 }
 
-export function page(cfg, { path, title, description, body, index, canonical, depth, scripts = [], og = "og.png" }) {
+export function page(cfg, { path, title, description, body, index, canonical, depth, scripts = [], og = "og.png", jsonLd = null }) {
   const root = "../".repeat(depth);
   const robots = index ? "" : '<meta name="robots" content="noindex">\n';
   const gc = cfg.goatcounter ? `<script data-goatcounter="${esc(cfg.goatcounter)}" async src="https://gc.zgo.at/count.js"></script>\n` : "";
+  const pageUrl = cfg.url + "/" + path;
+  const ogImage = cfg.url + "/" + og;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -21,17 +46,22 @@ export function page(cfg, { path, title, description, body, index, canonical, de
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-${robots}<link rel="canonical" href="${esc(canonical || cfg.url + "/" + path)}">
+${robots}<link rel="canonical" href="${esc(canonical || pageUrl)}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="*SET-U open data">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="*SET-U Open Data">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
-<meta property="og:url" content="${esc(cfg.url + "/" + path)}">
-<meta property="og:image" content="${esc(cfg.url + "/" + og)}">
+<meta property="og:url" content="${esc(pageUrl)}">
+<meta property="og:image" content="${esc(ogImage)}">
+<meta property="og:image:alt" content="${esc(title)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${esc(ogImage)}">
 <link rel="icon" href="${root}assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="${root}assets/style.css">
-${gc}</head>
+${jsonLdScript(jsonLd)}${gc}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><a class="wordmark" href="${root}"><span>*</span>SET-U <small>open data &amp; archive</small></a>
@@ -123,11 +153,48 @@ The live, interactive dossier is at <a href="${esc(live)}">${esc(live.replace(/^
   <p class="muted">Data for this word: <a href="../../data/">every dataset</a> (JSON, CSV, SQLite).</p>
 </article>
 <nav class="neighbours" aria-label="Neighbouring words">${nav}</nav>`;
+  const pagePath = `word/${encodeURIComponent(e.slug)}/`;
+  const canonicalUrl = cfg.archiveIndexable ? `${cfg.url}/${pagePath}` : live;
+  const termSetUrl = cfg.archiveIndexable ? `${cfg.url}/` : `${cfg.live}/`;
+  const rootPhrase = oldest ? `${oldest.form}${oldest.language ? ` (${oldest.language})` : ""}` : "the evidence horizon";
+  const cognatePart = dossier.relatives.length ? `, ${dossier.relatives.length} cognate${dossier.relatives.length === 1 ? "" : "s"}` : "";
+  const description = truncateDesc(
+    `${e.summary} ${forms.length} cited steps back to ${rootPhrase}${cognatePart}.`,
+    160,
+  );
+  const title = cfg.archiveIndexable
+    ? `${e.headword} Etymology, Origin & Cognates | *SET-U`
+    : `${e.headword} Etymology, Origin & Cognates (Archive) | *SET-U`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: cfg.archiveIndexable ? "*SET-U Open Data" : "*SET-U", item: termSetUrl },
+          { "@type": "ListItem", position: 2, name: e.headword, item: canonicalUrl },
+        ],
+      },
+      {
+        "@type": "DefinedTerm",
+        name: e.headword,
+        termCode: e.slug,
+        description: e.summary,
+        url: canonicalUrl,
+        inDefinedTermSet: {
+          "@type": "DefinedTermSet",
+          name: "*SET-U Etymology Atlas",
+          url: termSetUrl,
+        },
+      },
+    ],
+  };
   return page(cfg, {
-    path: `word/${encodeURIComponent(e.slug)}/`, depth: 2, index: cfg.archiveIndexable,
+    path: pagePath, depth: 2, index: cfg.archiveIndexable,
     canonical: cfg.archiveIndexable ? null : live,
-    title: `${e.headword}: etymology and word history (archive copy) | *SET-U`,
-    description: `${e.summary} ${forms.length} cited steps back to ${oldest ? oldest.form : "the evidence horizon"}, with sound and meaning changes, scholars, disputes and sources.`,
+    title,
+    description,
+    jsonLd,
     body,
   });
 }
@@ -167,10 +234,91 @@ export function homePage(cfg, { entries, manifest, linkHealth, drift }) {
   <h2 id="all">All ${fmt(entries.length)} reviewed dossiers</h2>
   <div class="letters">${list}</div>
 </section>`;
+  const description = truncateDesc(
+    `Explore ${fmt(counts.entries)} cited word etymologies, ${fmt(counts.nodes)} historical forms, and ${fmt(counts.edges)} sourced relationships. Download ${manifest.datasets.length} datasets as JSON, CSV & SQLite.`,
+    160,
+  );
+  const homeUrl = `${cfg.url}/`;
+  const orgId = `${cfg.live}/#org`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": orgId,
+        name: "*SET-U",
+        url: `${cfg.live}/`,
+        sameAs: [cfg.repoUrl],
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${cfg.url}/#website`,
+        name: "*SET-U Open Data & Etymology Graph",
+        url: homeUrl,
+        description,
+        publisher: { "@id": orgId },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `${cfg.url}/?q={search_term_string}`,
+          },
+          "query-input": "required name=search_term_string",
+        },
+      },
+      {
+        "@type": "Dataset",
+        "@id": `${cfg.url}/#dataset`,
+        name: "*SET-U Etymology Graph & Cited Word Histories",
+        description: `${fmt(counts.entries)} reviewed word etymology dossiers, ${fmt(counts.nodes)} attested and reconstructed historical forms, ${fmt(counts.edges)} cited sound and meaning changes, ${fmt(counts.sources)} scholarly sources, and ${fmt(counts.disputes)} recorded disputes across ${manifest.datasets.length} structured datasets.`,
+        url: `${cfg.url}/data/`,
+        version: manifest.schemaVersion,
+        dateModified: cfg.built,
+        isAccessibleForFree: true,
+        creator: { "@id": orgId },
+        keywords: [
+          "etymology",
+          "word origins",
+          "language genealogy",
+          "historical linguistics",
+          "cognates",
+          "etymology dataset",
+          "SQLite",
+        ],
+        distribution: [
+          {
+            "@type": "DataDownload",
+            name: "Full *SET-U Atlas (SQLite)",
+            encodingFormat: "application/x-sqlite3",
+            contentUrl: `${cfg.url}/${manifest.sqlite}`,
+          },
+          {
+            "@type": "DataDownload",
+            name: "*SET-U Export Manifest (JSON)",
+            encodingFormat: "application/json",
+            contentUrl: `${cfg.url}/data/manifest.json`,
+          },
+          {
+            "@type": "DataDownload",
+            name: "Word Dossiers (JSON)",
+            encodingFormat: "application/json",
+            contentUrl: `${cfg.url}/data/entries.json`,
+          },
+          {
+            "@type": "DataDownload",
+            name: "Word Dossiers (CSV)",
+            encodingFormat: "text/csv",
+            contentUrl: `${cfg.url}/data/entries.csv`,
+          },
+        ],
+      },
+    ],
+  };
   return page(cfg, {
     path: "", depth: 0, index: true, scripts: ["search.js"],
-    title: "*SET-U open data: cited word histories and the etymology graph, free to download",
-    description: `${fmt(counts.entries)} reviewed etymology dossiers with ${fmt(counts.edges)} cited relationships back to the limits of knowledge, plus every *SET-U dataset as JSON, CSV and SQLite.`,
+    title: "*SET-U Etymology Graph & Open Data — Cited Word Origins",
+    description,
+    jsonLd,
     body,
   });
 }
@@ -192,18 +340,79 @@ work keeps its own rights; quotations are short and attributed. Code that builds
 <p>Nodes are historical forms; edges connect a child form to its parent with the sound and meaning change and a confidence grade;
 <code>edge-citations</code> link each edge to its sources with a locator and stance. Dossiers (<code>entries</code>) follow an editorial path
 through the graph (<code>dossiers</code>). Full field notes: <a href="${esc(cfg.repoUrl)}/blob/main/docs/public-data.md">docs/public-data.md</a>.</p>`;
+  const description = truncateDesc(
+    `Download all ${manifest.datasets.length} *SET-U etymology datasets (${manifest.sqliteSize} SQLite, JSON, CSV): word origins, historical forms, cited edges, disputes, and witnesses.`,
+    160,
+  );
+  const dataUrl = `${cfg.url}/data/`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "*SET-U Open Data", item: `${cfg.url}/` },
+          { "@type": "ListItem", position: 2, name: "Datasets", item: dataUrl },
+        ],
+      },
+      {
+        "@type": "DataCatalog",
+        "@id": `${dataUrl}#catalog`,
+        name: "*SET-U Open Data Catalog",
+        description,
+        url: dataUrl,
+        dateModified: cfg.built,
+        publisher: { "@type": "Organization", name: "*SET-U", url: `${cfg.live}/` },
+        dataset: manifest.datasets.map((d) => ({
+          "@type": "Dataset",
+          name: `*SET-U ${d.name}`,
+          description: d.description,
+          url: `${cfg.url}/${d.json}`,
+          version: manifest.schemaVersion,
+          dateModified: cfg.built,
+          isAccessibleForFree: true,
+          distribution: [
+            { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${cfg.url}/${d.json}` },
+            { "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: `${cfg.url}/${d.csv}` },
+          ],
+        })),
+      },
+    ],
+  };
   return page(cfg, {
     path: "data/", depth: 1, index: true,
-    title: "*SET-U datasets: download the etymology graph (JSON, CSV, SQLite)",
-    description: `Download all ${manifest.datasets.length} *SET-U etymology datasets in full: word dossiers, historical forms, cited edges, sources, disputes and witnesses, as JSON, CSV and SQLite.`,
+    title: "Etymology Graph Datasets (JSON, CSV, SQLite) | *SET-U",
+    description,
+    jsonLd,
     body,
   });
 }
 
 export function citationsPage(cfg, linkHealth) {
+  const citationsUrl = `${cfg.url}/data/citations/`;
+  const breadcrumb = {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "*SET-U Open Data", item: `${cfg.url}/` },
+      { "@type": "ListItem", position: 2, name: "Datasets", item: `${cfg.url}/data/` },
+      { "@type": "ListItem", position: 3, name: "Citation health", item: citationsUrl },
+    ],
+  };
   if (!linkHealth || !linkHealth.checked) {
-    return page(cfg, { path: "data/citations/", depth: 2, index: true, title: "*SET-U citation health", description: "Weekly check of every source cited by the *SET-U etymology graph.",
-      body: `<h1>Citation health</h1><p class="lede">The first weekly check of every cited source link has not run yet.</p>` });
+    const description = "Weekly link-health audit of every scholarly source URL cited by the *SET-U etymology graph.";
+    return page(cfg, {
+      path: "data/citations/", depth: 2, index: true,
+      title: "Etymology Source Citation Health & Link Audit | *SET-U",
+      description,
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@graph": [
+          breadcrumb,
+          { "@type": "WebPage", name: "Citation health", description, url: citationsUrl },
+        ],
+      },
+      body: `<h1>Citation health</h1><p class="lede">The first weekly check of every cited source link has not run yet.</p>`,
+    });
   }
   const s = linkHealth.summary;
   const bad = linkHealth.results.filter((r) => r.status === "broken" || r.status === "unreachable");
@@ -215,10 +424,36 @@ Last check: ${esc(longDate(linkHealth.checked))}.</p>
 <div class="stats"><div><b>${fmt(s.ok)}</b> answer</div><div><b>${fmt(s.blocked)}</b> refuse scripts (fine for a person)</div><div><b>${fmt(s.unreachable)}</b> did not answer</div><div><b>${fmt(s.broken)}</b> broken</div></div>
 ${bad.length ? `<h2>Links to look at</h2><div class="tablewrap"><table><thead><tr><th>Link and the citations that use it</th><th>Status</th><th>Answer</th><th>Since</th></tr></thead><tbody>${rows}</tbody></table></div>` : "<p>No broken links in the latest check.</p>"}
 <p class="muted">"Refuse scripts" means the site answered 401, 403, 405 or 429 to an automated request; a person can still open it.</p>`;
+  const description = truncateDesc(
+    `Weekly link-health audit of ${fmt(s.total)} scholarly source URLs cited in the *SET-U etymology graph (${fmt(s.ok)} responding, checked ${longDate(linkHealth.checked)}).`,
+    160,
+  );
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      breadcrumb,
+      {
+        "@type": "Dataset",
+        name: "*SET-U Cited Source Link Health Report",
+        description,
+        url: citationsUrl,
+        dateModified: linkHealth.checked.slice(0, 10),
+        isAccessibleForFree: true,
+        distribution: [
+          {
+            "@type": "DataDownload",
+            encodingFormat: "application/json",
+            contentUrl: `${cfg.url}/data/link-health.json`,
+          },
+        ],
+      },
+    ],
+  };
   return page(cfg, {
     path: "data/citations/", depth: 2, index: true,
-    title: "*SET-U citation health: weekly check of every cited source",
-    description: `Weekly status of the ${fmt(s.total)} source links cited by the *SET-U etymology graph.`,
+    title: "Etymology Source Citation Health & Link Audit | *SET-U",
+    description,
+    jsonLd,
     body,
   });
 }

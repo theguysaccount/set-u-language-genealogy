@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { classify, needsAttention, since } from "../scripts/linkcheck.mjs";
 import { compare } from "../scripts/drift.mjs";
-import { esc, lineage } from "../static/render.mjs";
+import { esc, jsonLdScript, lineage, truncateDesc } from "../static/render.mjs";
 import { rank } from "../site/assets/search.js";
 
 test("link classification", () => {
@@ -53,4 +53,17 @@ test("search finds words by any historical form, ignoring diacritics and asteris
   assert.deepEqual(rank(rows, "séh₂l").map((h) => h.r.s), ["salary"]);
   assert.deepEqual(rank(rows, "sal").map((h) => h.r.s), ["salary", "salt"]);
   assert.deepEqual(rank(rows, "salt").map((h) => h.r.s), ["salt"]);
+});
+
+test("jsonLdScript escapes closing script tags safely and truncateDesc respects word boundaries", () => {
+  const out = jsonLdScript({ text: "</script><img src=x>&" });
+  assert.ok(out.startsWith('<script type="application/ld+json">'));
+  assert.ok(!out.includes("</script><img"));
+  assert.ok(out.includes("\\u003c/script\\u003e"));
+  assert.equal(jsonLdScript(null), "");
+  const short = truncateDesc("Short summary.", 160);
+  assert.equal(short, "Short summary.");
+  const long = truncateDesc("word ".repeat(50), 60);
+  assert.ok(long.length <= 60);
+  assert.ok(long.endsWith("…"));
 });
