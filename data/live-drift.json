@@ -1,0 +1,30 @@
+{
+ "checked": "2026-11-22",
+ "live": {
+  "schema": "2026-08-28.107",
+  "counts": {
+   "entries": 214,
+   "nodes": 1061,
+   "edges": 1025,
+   "sources": 624,
+   "disputes": 865,
+   "attestations": 538
+  }
+ },
+ "reachable": true,
+ "error": "",
+ "downSince": null,
+ "archive": {
+  "schema": "2026-08-28.107",
+  "counts": {
+   "entries": 214,
+   "nodes": 1061,
+   "edges": 1025,
+   "sources": 624,
+   "disputes": 865,
+   "attestations": 538
+  }
+ },
+ "same": true,
+ "differences": []
+}

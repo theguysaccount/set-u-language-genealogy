@@ -1,0 +1,23 @@
+# Every push and pull request: SET-U's 73-check evidence gate over a database rebuilt from drizzle/, then the tests.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Evidence gate (73 editorial invariants)
+        run: bash scripts/verify-atlas.sh
+      - name: Tests
+        run: node --test tests/*.test.mjs

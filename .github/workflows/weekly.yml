@@ -1,0 +1,78 @@
+# Weekly: check every cited source link, compare this edition with the live atlas, commit what changed, redeploy, and
+# turn problems that need a person into ops-alert issues. Safe to re-run: a second run the same day changes nothing.
+name: Weekly checks
+
+on:
+  schedule:
+    - cron: "19 6 * * 2"    # Tuesdays 06:19 UTC
+    - cron: "37 */2 22,23 11 *"   # TEMPORARY: proves the schedule trigger on 22-23 Nov 2026; remove after it fires
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+concurrency:
+  group: weekly
+  cancel-in-progress: false
+
+env:
+  LIVE_URL: ${{ vars.LIVE_URL || 'https://www.set-u.org' }}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Citation links
+        id: links
+        run: node scripts/linkcheck.mjs || echo "partial=true" >> "$GITHUB_OUTPUT"
+      - name: Compare with the live atlas
+        run: node scripts/drift.mjs
+      - name: Gate and tests
+        run: |
+          bash scripts/verify-atlas.sh > /dev/null
+          node --test tests/*.test.mjs
+      - name: Commit and redeploy if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add -A data/
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Weekly checks $(date -u +%F)"
+          for attempt in 1 2 3; do
+            git pull --rebase --quiet origin main && git push origin HEAD:main && break
+            sleep 10
+          done
+          gh workflow run deploy.yml --ref main
+      - name: Open or close ops-alert issues
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/alerts.mjs
+      - name: Fail visibly if the link check could not run
+        if: steps.links.outputs.partial == 'true'
+        run: |
+          echo "::error::The citation check got no answer at all; the last report was kept."
+          exit 1
+
+  keepalive:
+    needs: check
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Keep scheduled workflows enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: scripts/keepalive.sh

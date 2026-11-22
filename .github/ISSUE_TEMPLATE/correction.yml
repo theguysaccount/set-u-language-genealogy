@@ -1,0 +1,21 @@
+name: Correction
+description: A wrong claim, citation or link in a SET-U dossier.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: input
+    id: word
+    attributes:
+      label: Word or form
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong, and what the source says
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source (https link and exact locator)

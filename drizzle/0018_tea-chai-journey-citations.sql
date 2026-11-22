@@ -1,0 +1,11 @@
+INSERT INTO `place_sources` (`place_id`,`source_id`,`locator`,`stance`,`evidence_note`) VALUES
+(144,105,'Table row 茶 chá, PDF page 11: Middle Chinese drae; Old Chinese *lˤra','supports','Supplies the reviewed Old Chinese reconstruction for the Chinese linguistic horizon while SET-U keeps that horizon geographically broad.'),
+(145,102,'Chapter 138, paragraphs on Min Nan te55 and Dutch contact at Amoy/Xiamen','supports','Identifies the Min Nan te-type form and explains that Dutch traders adopted it through their principal contact at Amoy/Xiamen in Fujian.'),
+(146,102,'Chapter 138, paragraph on Dutch diffusion from Amoy/Xiamen','supports','Describes Dutch thee spreading to large parts of Europe and to languages in former Dutch colonies through maritime contact.'),
+(147,103,'Word History: Etymology and First Known Use','supports','Reports English tea as borrowed from Chinese (Xiamen) dé and dates its first known English use to 1655.'),
+(148,102,'Chapter 138, Values of Map 138A: Tea','supports','Counts 84 of the 230 sampled languages in the Min Nan Chinese te-derived class; SET-U presents that sample as a distribution, not a universal.'),
+(149,105,'Table row 茶 chá, PDF page 11: Middle Chinese drae; Old Chinese *lˤra','supports','Aligns Mandarin chá with reconstructed Middle Chinese drae and Old Chinese *lˤra without assigning either reconstruction a false pinpoint.'),
+(150,102,'Chapter 138, paragraph contrasting maritime and overland transmission','supports','Reports that eastern European and Asian languages receiving tea overland tend to use chai-type forms; the wording supports a tendency rather than an exceptionless rule.'),
+(151,106,'The spread of tea in the Persian world, opening paragraph','supports','Reports Bīrūnī discussing čāy and its beverage use in China and Tibet in a work written in the first half of the 5th/11th century.'),
+(152,104,'Word History: Etymology and headword definition','supports','Names Hindi and Urdu chay meaning tea among the source forms while defining English chai as a milk-and-spice tea blend, supporting the displayed general-to-specialized sense route.'),
+(153,104,'Word History: First Known Use','supports','Dates the first known use of the current English chai entry to 1984.');

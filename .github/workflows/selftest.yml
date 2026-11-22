@@ -1,0 +1,48 @@
+# Weekly self-test of the live edition: data files, indexing per page type, freshness (dispatches weekly.yml when the
+# citation check is stale), and a headless end-to-end run. Then the keep-alive.
+name: Self-test
+
+on:
+  schedule:
+    - cron: "41 7 * * 5"    # Fridays 07:41 UTC
+    - cron: "11,41 * 22,23 11 *"   # TEMPORARY: proves the schedule trigger on 22-23 Nov 2026; remove after it fires
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+  LIVE_URL: ${{ vars.LIVE_URL || 'https://www.set-u.org' }}
+  ARCHIVE_INDEXABLE: ${{ vars.ARCHIVE_INDEXABLE || 'false' }}
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Live pages, data and indexing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/health.mjs "$SITE_URL"
+      - name: Live end-to-end run
+        run: scripts/e2e.sh "$SITE_URL/"
+
+  keepalive:
+    needs: live
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Keep scheduled workflows enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: scripts/keepalive.sh

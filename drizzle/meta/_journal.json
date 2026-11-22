@@ -1,0 +1,83 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787715473456,
+      "tag": "0000_chemical_silverclaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787720458132,
+      "tag": "0001_founding-expansion",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787721153035,
+      "tag": "0002_global-language-graph",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787721314920,
+      "tag": "0003_logic-bridge",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787721586288,
+      "tag": "0004_leg-family-expansion",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787721847367,
+      "tag": "0005_attestation-provenance",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787721947214,
+      "tag": "0006_reviewed-rabbit-holes",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787722979127,
+      "tag": "0007_computation-and-context-links",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1787725193273,
+      "tag": "0008_sense-aware-canonical-identity",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1787725566808,
+      "tag": "0009_host-guest-branching-family",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1787725822040,
+      "tag": "0010_allow-shared-source-urls",
+      "breakpoints": true
+    }
+  ]
+}

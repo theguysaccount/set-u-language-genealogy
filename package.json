@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=23.6.0" },
+  "description": "No dependencies. Node runs the TypeScript loaders in lib/ directly (type stripping) and uses node:sqlite."
+}
