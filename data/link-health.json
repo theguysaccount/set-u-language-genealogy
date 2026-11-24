@@ -1,10 +1,10 @@
 {
- "checked": "2026-11-22",
+ "checked": "2026-11-24",
  "summary": {
   "total": 600,
-  "ok": 353,
-  "blocked": 216,
-  "unreachable": 23,
+  "ok": 365,
+  "blocked": 215,
+  "unreachable": 12,
   "broken": 8
  },
  "results": [
@@ -273,20 +273,20 @@
    "keys": [
     "perseus-lsj-prosopon"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "ECONNRESET",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n21059/",
    "keys": [
     "scaife-ls-humilitas"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "ECONNRESET",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n41625/",
@@ -343,8 +343,8 @@
    "keys": [
     "liberman-2018-hatred-2"
    ],
-   "status": "blocked",
-   "http": 403,
+   "status": "ok",
+   "http": 200,
    "error": "",
    "since": null
   },
@@ -813,10 +813,10 @@
    "keys": [
     "drw-hetzen"
    ],
-   "status": "ok",
-   "http": 200,
-   "error": "",
-   "since": null
+   "status": "unreachable",
+   "http": 0,
+   "error": "UND_ERR_CONNECT_TIMEOUT",
+   "since": "2026-11-24"
   },
   {
    "url": "https://dsae.co.za/entry/ubuntu/e07415",
@@ -833,10 +833,10 @@
    "keys": [
     "galis-2017-mycenae"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "The operation was aborted due to timeout",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://dspace.uib.es/xmlui/handle/11201/166976",
@@ -953,60 +953,60 @@
    "keys": [
     "ewa-altwib"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "CERT_HAS_EXPIRED",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://ewa.saw-leipzig.de/articles/71810/de",
    "keys": [
     "ewa-hiwa1"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "CERT_HAS_EXPIRED",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://ewa.saw-leipzig.de/articles/81970/en",
    "keys": [
     "ewa-kind"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "CERT_HAS_EXPIRED",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://ewa.saw-leipzig.de/articles/87240/de",
    "keys": [
     "ewa-kuning"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "CERT_HAS_EXPIRED",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://ewa.saw-leipzig.de/articles/87340/de",
    "keys": [
     "ewa-kunni"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "CERT_HAS_EXPIRED",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://ewa.saw-leipzig.de/articles/92970/de",
    "keys": [
     "ewa-liuben"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "CERT_HAS_EXPIRED",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://formacionenservicio.minedu.gob.pe/sifods/centro-recurso/2022/Material-educativo/Libro/vocabulario-pedagogico-aimara.pdf",
@@ -1123,10 +1123,10 @@
    "keys": [
     "wiese-sanskrit-ie"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "UND_ERR_CONNECT_TIMEOUT",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://hdl.handle.net/11577/2487804",
@@ -1203,10 +1203,10 @@
    "keys": [
     "ylikoski-kiuas"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "UND_ERR_CONNECT_TIMEOUT",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://kotus.fi/sana/sauna/",
@@ -5716,10 +5716,10 @@
    "keys": [
     "rekhta-urdu-chaae"
    ],
-   "status": "unreachable",
-   "http": 0,
-   "error": "UND_ERR_CONNECT_TIMEOUT",
-   "since": "2026-11-22"
+   "status": "ok",
+   "http": 200,
+   "error": "",
+   "since": null
   },
   {
    "url": "https://www.scielo.cl/scielo.php?pid=S0718-93032010000200008&script=sci_arttext",
