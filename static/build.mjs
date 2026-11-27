@@ -131,6 +131,27 @@ export async function build({ out = path.join(ROOT, "dist"), env = process.env }
   write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${
     indexable.map((p) => `<url><loc>${esc(cfg.url + "/" + p)}</loc><lastmod>${cfg.built}</lastmod></url>`).join("\n")}\n</urlset>\n`);
   write("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${cfg.url}/sitemap.xml\n`);
+  write("llms.txt", [
+    "# *SET-U Open Data",
+    "",
+    `> Evidence-backed static etymology open-data edition of *SET-U (${entries.length} reviewed word dossiers across ${manifest.datasets.length} structured datasets, schema ${manifest.schemaVersion}).`,
+    "",
+    "Last reviewed: 2026-11-27",
+    "",
+    "## Key Pages",
+    "",
+    `- [Home & Word Search](${cfg.url}/): Search all ${entries.length} reviewed word etymologies by headword or historical form.`,
+    `- [Open Data Downloads](${cfg.url}/data/): Download all ${manifest.datasets.length} datasets as JSON, CSV, and full SQLite (${manifest.sqliteSize}).`,
+    `- [Citation Health](${cfg.url}/data/citations/): Weekly link-health audit of cited scholarly sources.`,
+    `- [Live Interactive Atlas](${cfg.live}/): Interactive *SET-U genealogy explorer.`,
+    "",
+    "## Bulk Endpoints",
+    "",
+    `- [Export Manifest (JSON)](${cfg.url}/data/manifest.json)`,
+    `- [Full SQLite Database](${cfg.url}/${manifest.sqlite})`,
+    `- [Sitemap](${cfg.url}/sitemap.xml)`,
+    "",
+  ].join("\n"));
   mkdirSync(path.join(ROOT, "build"), { recursive: true });
   writeFileSync(path.join(ROOT, "build", "urls.txt"), indexable.map((p) => cfg.url + "/" + p).join("\n") + "\n");
   db.close();
