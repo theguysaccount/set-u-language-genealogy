@@ -61,11 +61,12 @@ ${robots}<link rel="canonical" href="${esc(canonical || pageUrl)}">
 <meta name="twitter:image" content="${esc(ogImage)}">
 <link rel="icon" href="${root}assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="${root}assets/style.css">
+<script defer src="https://rsio.org/vital.js" data-site="data.set-u.org"></script>
 ${jsonLdScript(jsonLd)}${gc}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><a class="wordmark" href="${root}"><span>*</span>SET-U <small>open data &amp; archive</small></a>
-<nav aria-label="Site"><a href="${root}">Words</a><a href="${root}data/">Data</a><a href="${root}data/citations/">Citation health</a><a href="${esc(cfg.live)}/" rel="noopener">Live atlas &rarr;</a></nav></header>
+<nav aria-label="Site"><a href="${root}">Words</a><a href="${root}data/">Data</a><a href="${root}data/citations/">Citation health</a><a href="${esc(cfg.live)}/" rel="noopener" data-vital-event="offer_clicked">Live atlas &rarr;</a></nav></header>
 <main id="main">
 ${body}
 </main>
@@ -140,7 +141,7 @@ export function dossierPage(cfg, dossier, neighbours) {
   const nav = [neighbours.prev ? `<a href="../${encodeURIComponent(neighbours.prev.slug)}/">&larr; ${esc(neighbours.prev.headword)}</a>` : "", neighbours.next ? `<a href="../${encodeURIComponent(neighbours.next.slug)}/">${esc(neighbours.next.headword)} &rarr;</a>` : ""].join(" ");
   const body = `
 <p class="archive-note">Archive copy of a reviewed *SET-U dossier, rebuilt from schema ${esc(cfg.schema)}.
-The live, interactive dossier is at <a href="${esc(live)}">${esc(live.replace(/^https?:\/\//, ""))}</a>.</p>
+The live, interactive dossier is at <a href="${esc(live)}" data-vital-event="offer_clicked">${esc(live.replace(/^https?:\/\//, ""))}</a>.</p>
 <article class="dossier" data-dossier="${esc(e.slug)}" data-forms="${forms.length}">
   <h1>${esc(e.headword)}</h1>
   <p class="pron">${[e.pronunciation, e.partOfSpeech].filter(Boolean).map(esc).join(" &middot; ")}</p>
@@ -150,7 +151,7 @@ The live, interactive dossier is at <a href="${esc(live)}">${esc(live.replace(/^
   <p class="muted">${forms.length} steps from today back to ${oldest ? esc(oldest.form) + " (" + esc(oldest.language) + ")" : "the evidence horizon"}. An asterisk marks a form reconstructed by comparison, never found written.</p>
   <div class="lineage">${lineage(dossier)}</div>
   ${relatives}${places}${disputes}${witnesses}
-  <p class="muted">Data for this word: <a href="../../data/">every dataset</a> (JSON, CSV, SQLite).</p>
+  <p class="muted">Data for this word: <a href="../../data/" data-vital-event="offer_clicked">every dataset</a> (JSON, CSV, SQLite).</p>
 </article>
 <nav class="neighbours" aria-label="Neighbouring words">${nav}</nav>`;
   const pagePath = `word/${encodeURIComponent(e.slug)}/`;
@@ -220,14 +221,14 @@ export function homePage(cfg, { entries, manifest, linkHealth, drift }) {
   <b>${fmt(counts.entries)}</b> word dossiers, <b>${fmt(counts.nodes)}</b> historical forms, <b>${fmt(counts.edges)}</b> cited
   relationships, <b>${fmt(counts.sources)}</b> sources and <b>${fmt(counts.disputes)}</b> recorded disputes. Each relationship carries its sound
   change, meaning change, scholar, confidence and citations, back to the point where secure knowledge ends.</p>
-  <p>The live, interactive atlas is <a href="${esc(cfg.live)}/">${esc(cfg.live.replace(/^https?:\/\//, ""))}</a>. This edition is static, so it keeps working
-  anywhere, and it adds <a href="data/">complete downloads</a> of all ${manifest.datasets.length} datasets plus a weekly check of every cited link.</p>
+  <p>The live, interactive atlas is <a href="${esc(cfg.live)}/" data-vital-event="offer_clicked">${esc(cfg.live.replace(/^https?:\/\//, ""))}</a>. This edition is static, so it keeps working
+  anywhere, and it adds <a href="data/" data-vital-event="offer_clicked">complete downloads</a> of all ${manifest.datasets.length} datasets plus a weekly check of every cited link.</p>
   ${lh}${driftLine}
 </section>
 <section aria-labelledby="find">
   <h2 id="find">Find a word, or any ancestor of one</h2>
   <form class="search" role="search" onsubmit="return false"><label class="sr" for="q">Search words and historical forms</label>
-  <input id="q" type="search" placeholder="love, salary, *séh₂l-, chai…" autocomplete="off" spellcheck="false"></form>
+  <input id="q" type="search" placeholder="love, salary, *séh₂l-, chai…" autocomplete="off" spellcheck="false" data-vital-event="tool_used"></form>
   <ol id="results" class="results" aria-live="polite"></ol>
 </section>
 <section aria-labelledby="all">
@@ -325,13 +326,13 @@ export function homePage(cfg, { entries, manifest, linkHealth, drift }) {
 
 export function dataPage(cfg, manifest) {
   const rows = manifest.datasets.map((d) => `<tr><td><b>${esc(d.name)}</b><div class="muted">${esc(d.description)}</div></td><td class="num">${fmt(d.rows)}</td>
-    <td><a href="${esc(d.name)}.json">JSON</a> &middot; <a href="${esc(d.name)}.csv" download>CSV</a></td></tr>`).join("");
+    <td><a href="${esc(d.name)}.json" data-vital-event="offer_clicked">JSON</a> &middot; <a href="${esc(d.name)}.csv" download data-vital-event="offer_clicked">CSV</a></td></tr>`).join("");
   const body = `
 <h1>Open data</h1>
 <p class="lede">All ${manifest.datasets.length} *SET-U datasets in full, unpaginated, as published by the live atlas's export contract (schema
 ${esc(manifest.schemaVersion)}). Rebuilt from the reviewed migrations whenever they change.</p>
-<p><a class="button" href="set-u-atlas.sqlite" download>Download the whole atlas as SQLite</a> <span class="muted">${esc(manifest.sqliteSize)}</span>
-&middot; <a href="manifest.json">manifest.json</a></p>
+<p><a class="button" href="set-u-atlas.sqlite" download data-vital-event="offer_clicked">Download the whole atlas as SQLite</a> <span class="muted">${esc(manifest.sqliteSize)}</span>
+&middot; <a href="manifest.json" data-vital-event="offer_clicked">manifest.json</a></p>
 <div class="tablewrap"><table><thead><tr><th>Dataset</th><th>Rows</th><th>Files</th></tr></thead><tbody>${rows}</tbody></table></div>
 <h2>Reuse</h2>
 <p>SET-U has not yet declared reuse terms for its original editorial data, so ask before republishing it wholesale. Every cited source
